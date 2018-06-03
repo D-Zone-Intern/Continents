@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Continents and Oceans</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="splash_screen"> Continents and Oceans</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="you_are_here">You are here.</string>
+</resources>
