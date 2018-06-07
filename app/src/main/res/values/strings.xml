@@ -5,4 +5,6 @@
     <string name="splash_screen"> Continents and Oceans</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="you_are_here">You are here.</string>
+    <string name="button1">Continents</string>
+    <string name="button2">Oceans</string>
 </resources>
