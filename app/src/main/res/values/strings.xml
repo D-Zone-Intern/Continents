@@ -7,4 +7,7 @@
     <string name="you_are_here">You are here.</string>
     <string name="button1">Continents</string>
     <string name="button2">Oceans</string>
+    <string name="next_button">next</string>
+    <string name="finish_button">finish</string>
+    <string name="prev_button">prev</string>
 </resources>
