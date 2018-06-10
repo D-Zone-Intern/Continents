@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
         init();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
+
     private void init() {
         Collections.addAll(picsArray, pics);
 
@@ -41,17 +47,7 @@ public class MainActivity extends AppCompatActivity {
         mPager.setAdapter(new Adapter(this, picsArray));
         CircleIndicator indicator = findViewById(R.id.indicator);
         indicator.setViewPager(mPager);
-
-        // Auto start of viewpager
-        new Handler();
-        new Runnable() {
-            public void run() {
-                if (currentPage == pics.length) {
-                    currentPage = 0;
-                }
-                mPager.setCurrentItem(currentPage++, true);
-            }
-        };
+        
 
     }
 }
