@@ -20,7 +20,6 @@ public class splash_acivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_acivity);
-
         init();
     }
         public void init(){
