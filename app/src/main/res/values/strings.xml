@@ -10,4 +10,6 @@
     <string name="next_button">next</string>
     <string name="finish_button">finish</string>
     <string name="prev_button">prev</string>
+    <string name="Welcome_spash">Welcome</string>
+    <string name="splash_image">splash image</string>
 </resources>
