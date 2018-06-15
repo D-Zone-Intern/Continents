@@ -8,6 +8,7 @@ import android.location.LocationManager;
 import android.os.Build;
 import android.os.Handler;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
@@ -87,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         return cityname;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -109,11 +111,15 @@ public class MainActivity extends AppCompatActivity {
                     String city = getlocation(location.getLatitude(),location.getLongitude());
                     txtloc.setText(city);
                 }else {
-                    Toast.makeText(getApplicationContext(),"Permisiion not granted",Toast.LENGTH_LONG).show();
+
+                    Toast.makeText(getApplicationContext(),"Permission not granted. Please grant permission on next app launch.",Toast.LENGTH_LONG).show();
+                    finish();
                 }
             }
         }
     }
+
+
 
     @Override
     protected void onStart() {
