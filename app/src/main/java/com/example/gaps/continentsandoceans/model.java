@@ -8,13 +8,11 @@ public class model {
     public model() {
         super();
     }
-
     public model(String name, String cname, String image) {
         this.name = name;
         this.cname = cname;
         this.image = image;
     }
-
     public String getName() {
         return name;
     }

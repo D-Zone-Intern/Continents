@@ -8,11 +8,11 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-public class countryviewholder extends RecyclerView.ViewHolder {
-    private final ImageView imageView;
-    private final TextView name;
-    private final TextView cname;
-    public countryviewholder(View itemView, ImageView imageView, TextView name, TextView cname) {
+public final class countryviewholder extends RecyclerView.ViewHolder {
+    private ImageView imageView ;
+    private  TextView name;
+    private  TextView cname;
+    countryviewholder(View itemView) {
         super(itemView);
         this.imageView = imageView;
         this.name = name;
