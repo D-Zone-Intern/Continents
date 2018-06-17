@@ -1,6 +1,7 @@
 package com.example.gaps.continentsandoceans;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -18,6 +19,7 @@ import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.location.Location;
 import android.location.LocationListener;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final Integer[] pics = {R.drawable.s1, R.drawable.s2};
     private TextView txtloc;
+    private Button btnconti;
     private ArrayList<Integer> picsArray = new ArrayList<>();
 
     @Override
@@ -60,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
         Collections.addAll(picsArray, pics);
         txtloc = findViewById(R.id.textView2);
         ViewPager mPager = findViewById(R.id.pager);
+        btnconti = findViewById(R.id.button_continents);
+        btnconti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),Continents.class);
+                startActivity(i);
+            }
+        });
         mPager.setAdapter(new Adapter(this, picsArray));
         CircleIndicator indicator = findViewById(R.id.indicator);
         indicator.setViewPager(mPager);

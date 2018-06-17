@@ -37,9 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".splash_normal">
-
-        </activity>
+        <activity android:name=".splash_normal" />
+        <activity android:name=".Continents" />
+        <activity android:name=".next_Activity"></activity>
     </application>
 
 </manifest>
