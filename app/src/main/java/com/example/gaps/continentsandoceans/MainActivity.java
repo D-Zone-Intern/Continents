@@ -7,6 +7,7 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.location.LocationManager;
 import android.os.Build;
+import me.relex.circleindicator.CircleIndicator;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
@@ -30,7 +31,7 @@ import android.location.LocationListener;
 
 import com.google.android.gms.common.ConnectionResult;
 
-import me.relex.circleindicator.CircleIndicator;
+
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -47,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final Integer[] pics = {R.drawable.s1, R.drawable.s2};
     private TextView txtloc;
-    private Button btnconti;
     private ArrayList<Integer> picsArray = new ArrayList<>();
 
     @Override
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         Collections.addAll(picsArray, pics);
         txtloc = findViewById(R.id.textView2);
         ViewPager mPager = findViewById(R.id.pager);
-        btnconti = findViewById(R.id.button_continents);
+        Button btnconti = findViewById(R.id.button_continents);
         btnconti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

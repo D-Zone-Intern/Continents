@@ -17,49 +17,58 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
 public class next_Activity extends AppCompatActivity {
+    RecyclerView recyclerView;
+    DatabaseReference databaseReference;
+    FirebaseRecyclerAdapter<model, countryviewholder> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.next_activity);
-        RecyclerView recyclerView = findViewById(R.id.recycler);
-        LinearLayoutManager llm = new LinearLayoutManager(this);
-        llm.setOrientation(LinearLayoutManager.VERTICAL);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        init();
 
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
+    private void init() {
+        recyclerView = findViewById(R.id.recycler);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        databaseReference = FirebaseDatabase.getInstance().getReference();
+        Intent intent = getIntent();
+        String value = intent.getStringExtra("data");
+        Query query = FirebaseDatabase.getInstance().getReference().child(value);
 
-        Query myRef = FirebaseDatabase.getInstance().getReference().child("data");
-        FirebaseRecyclerOptions<model> options =
-                new FirebaseRecyclerOptions.Builder<model>()
-                        .setQuery(myRef, model.class)
-                        .build();
-
-        new FirebaseRecyclerAdapter<model, countryviewholder>(options) {
-            @NonNull
-            @Override
-            public countryviewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                View view = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.row, parent, false);
-
-                return new countryviewholder(view);
-            }
-
+        FirebaseRecyclerOptions<model> options = new FirebaseRecyclerOptions.Builder<model>()
+                .setQuery(query, model.class)
+                .build();
+        adapter = new FirebaseRecyclerAdapter<model, countryviewholder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull countryviewholder holder, int position, @NonNull model model) {
-
                 holder.setImage(model.getImage(), next_Activity.this);
                 holder.setName(model.getName());
                 holder.setCname(model.getCname());
             }
 
-
+            @NonNull
+            @Override
+            public countryviewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.row, parent, false);
+                return new countryviewholder(v);
+            }
         };
+        recyclerView.setAdapter(adapter);
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        adapter.startListening();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        adapter.stopListening();
     }
 }
+
