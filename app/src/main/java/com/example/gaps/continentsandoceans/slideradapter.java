@@ -16,8 +16,8 @@ import static com.example.gaps.continentsandoceans.R.layout.slide_layout;
 public class slideradapter extends PagerAdapter {
 
     private Context context;
-    private int[] myImageList = new int[]{ R.drawable.index1, R.drawable.index2, R.drawable.s2};
-    private String[] heading = new String[]{"HELLO", "JEKJKW", "EJKW"};
+    private int[] myImageList = new int[]{ R.drawable.image1, R.drawable.image2, R.drawable.image3};
+
 
     slideradapter(Context context) {
 
@@ -27,7 +27,7 @@ public class slideradapter extends PagerAdapter {
 
     @Override
     public int getCount() {
-        return heading.length;
+        return myImageList.length;
     }
 
     @Override
@@ -43,9 +43,9 @@ public class slideradapter extends PagerAdapter {
         assert layoutInflater != null;
         view = layoutInflater.inflate(R.layout.slide_layout,container,false);
         ImageView imageView = view.findViewById(R.id.image);
-        TextView textView = view.findViewById(R.id.str);
+
         imageView.setImageResource(myImageList[position]);
-        textView.setText(heading[position]);
+
         ViewPager vp = (ViewPager) container;
         vp.addView(view,0);
         return view;

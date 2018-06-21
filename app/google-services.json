@@ -15,6 +15,17 @@
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
+=======
+          "client_id": "70587813237-s0to6gn7jt0rs57gaeksd707huamjvfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaps.continentsandoceans",
+            "certificate_hash": "27e5bf8b38acd045cfb3fef1a186f833ac0d5352"
+          }
+        },
+        {
+>>>>>>> vikash
           "client_id": "70587813237-q9pu15ilq6l8ovk965lgijbs0tvuet21.apps.googleusercontent.com",
           "client_type": 3
         },
@@ -33,8 +44,18 @@
           "status": 1
         },
         "appinvite_service": {
+<<<<<<< HEAD
           "status": 1,
           "other_platform_oauth_client": []
+=======
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70587813237-q9pu15ilq6l8ovk965lgijbs0tvuet21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+>>>>>>> vikash
         },
         "ads_service": {
           "status": 2

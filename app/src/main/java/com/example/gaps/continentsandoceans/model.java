@@ -8,13 +8,19 @@ public class model {
     public model() {
         super();
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> vikash
     public model(String name, String cname, String image) {
         this.name = name;
         this.cname = cname;
         this.image = image;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> vikash
     public String getName() {
         return name;
     }

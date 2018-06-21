@@ -7,7 +7,11 @@
     android:id="@+id/card"
     app:cardCornerRadius="12dp"
     android:layout_margin="7dp"
+<<<<<<< HEAD
     android:elevation="98dp">
+=======
+    >
+>>>>>>> vikash
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

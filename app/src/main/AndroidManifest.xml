@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
 
     <application
+        android:name=".firebasehelper"
         android:allowBackup="true"
         android:icon="@drawable/launcher"
         android:label="@string/app_name"
@@ -37,7 +38,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".splash_normal" />
+=======
+        <activity
+            android:name=".splash_normal"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+>>>>>>> vikash
         <activity android:name=".Continents" />
         <activity android:name=".next_Activity"></activity>
     </application>
