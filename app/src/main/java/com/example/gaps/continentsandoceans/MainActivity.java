@@ -67,6 +67,15 @@ public class MainActivity extends AppCompatActivity {
         txtloc = findViewById(R.id.textView2);
         ViewPager mPager = findViewById(R.id.pager);
         Button btnconti = findViewById(R.id.button_continents);
+        Button btnocean = findViewById(R.id.button_oceans);
+            btnocean.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(getApplicationContext(),OceansActivity.class);
+                    startActivity(i);
+                }
+            });
+
         btnconti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -172,6 +181,11 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Continents and Oceans");
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+
             return true;
         }
 
