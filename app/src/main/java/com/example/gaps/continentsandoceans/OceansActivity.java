@@ -1,21 +1,34 @@
 package com.example.gaps.continentsandoceans;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-public class Continents extends AppCompatActivity implements View.OnClickListener {
-        ImageButton asia,europe,africa,namerica,samerica,antarctica,australia;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+
+public class OceansActivity extends AppCompatActivity implements View.OnClickListener {
+
+
+    ImageButton asia,europe,africa,namerica,samerica,antarctica,australia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.continents);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setContentView(R.layout.activity_oceans);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         init();
     }
 
@@ -40,37 +53,37 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.asia :
-                Intent intent = new Intent(this, next_Activity.class);
+                Intent intent = new Intent(this, nextActivity2.class);
                 intent.putExtra("data","asia");
                 startActivity(intent);
                 break;
             case R.id.europe :
-                Intent i = new Intent(this, next_Activity.class);
+                Intent i = new Intent(this, nextActivity2.class);
                 i.putExtra("data","europe");
                 startActivity(i);
                 break;
             case R.id.namaerica :
-                Intent in = new Intent(this, next_Activity.class);
+                Intent in = new Intent(this, nextActivity2.class);
                 in.putExtra("data","namerica");
                 startActivity(in);
                 break;
             case R.id.samerica :
-                Intent inte = new Intent(this, next_Activity.class);
+                Intent inte = new Intent(this, nextActivity2.class);
                 inte.putExtra("data","samerica");
                 startActivity(inte);
                 break;
             case R.id.africa :
-                Intent inten = new Intent(this, next_Activity.class);
+                Intent inten = new Intent(this, nextActivity2.class);
                 inten.putExtra("data","africa");
                 startActivity(inten);
                 break;
             case R.id.australia :
-                Intent intent1 = new Intent(this, next_Activity.class);
+                Intent intent1 = new Intent(this, nextActivity2.class);
                 intent1.putExtra("data","australia");
                 startActivity(intent1);
                 break;
             case R.id.antarctica :
-                Intent intent2 = new Intent(this, next_Activity.class);
+                Intent intent2 = new Intent(this, nextActivity2.class);
                 intent2.putExtra("data","antarctica");
                 startActivity(intent2);
                 break;
@@ -78,7 +91,6 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
 
         }
     }
-
 
 
     @Override
@@ -107,6 +119,7 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
 
         return super.onOptionsItemSelected(item);
     }
+
     @Override
     public boolean onSupportNavigateUp(){
         Intent intent = new Intent(this,MainActivity.class);
@@ -120,4 +133,9 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
         super.onBackPressed();
         finish();
     }
+
+
+
+
+
 }

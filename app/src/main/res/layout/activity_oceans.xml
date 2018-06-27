@@ -3,10 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Continents"
-    tools:layout_editor_absoluteY="81dp">
-
+    android:layout_height="match_parent">
 
     <ImageButton
         android:id="@+id/africa"
@@ -99,4 +96,8 @@
         app:layout_constraintStart_toStartOf="@+id/antarctica"
         app:layout_constraintTop_toTopOf="@+id/antarctica"
         app:srcCompat="@drawable/australia" />
+
+
+
+
 </android.support.constraint.ConstraintLayout>

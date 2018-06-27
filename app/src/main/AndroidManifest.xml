@@ -41,8 +41,24 @@
         <activity
             android:name=".splash_normal"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".Continents" />
-        <activity android:name=".next_Activity"></activity>
+
+        <activity
+            android:name=".Continents"
+            android:label="Continents" />
+
+        <activity
+            android:name=".OceansActivity"
+            android:label="Oceans">
+        </activity>
+
+        <activity android:name=".next_Activity">
+
+        </activity>
+
+        <activity android:name=".nextActivity2">
+
+        </activity>
+
     </application>
 
 </manifest>

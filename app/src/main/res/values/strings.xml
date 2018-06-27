@@ -4,7 +4,7 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="splash_screen"> Continents and Oceans</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="you_are_here">You are here.</string>
+    <string name="you_are_here">You are here</string>
     <string name="button1">Continents</string>
     <string name="button2">Oceans</string>
     <string name="next_button">next</string>
@@ -12,5 +12,8 @@
     <string name="prev_button">prev</string>
     <string name="Welcome_spash">Welcome</string>
     <string name="splash_image">splash image</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Share</string>
+    <string name="sliderImage">slider</string>
+    <string name="recimage">recima</string>
+    <string name="oceanAction">Oceans</string>
 </resources>
