@@ -2,35 +2,36 @@ package com.example.gaps.continentsandoceans;
 
 public class model {
     private String name;
-    private String cname;
+    private String desc;
     private String image;
 
     public model() {
         super();
     }
-    public model(String name, String cname, String image) {
+    public model(String name, String desc, String image) {
         this.name = name;
-        this.cname = cname;
+        this.desc = desc;
         this.image = image;
     }
+
     public String getName() {
         return name;
-    }
-
-    public String getCname() {
-        return cname;
-    }
-
-    public String getImage() {
-        return image;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setCname(String cname) {
-        this.cname = cname;
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public String getImage() {
+        return image;
     }
 
     public void setImage(String image) {

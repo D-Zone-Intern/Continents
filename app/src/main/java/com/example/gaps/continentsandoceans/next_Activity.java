@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
@@ -47,9 +48,10 @@ public class next_Activity extends AppCompatActivity {
         adapter = new FirebaseRecyclerAdapter<model, countryviewholder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull countryviewholder holder, int position, @NonNull model model) {
-                holder.setImage(model.getImage(), next_Activity.this);
+
+                holder.setDesc(model.getDesc());
+                holder.setImage(model.getImage(),next_Activity.this);
                 holder.setName(model.getName());
-                holder.setCname(model.getCname());
             }
 
             @NonNull
