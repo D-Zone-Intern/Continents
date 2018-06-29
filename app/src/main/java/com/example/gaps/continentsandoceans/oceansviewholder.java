@@ -9,30 +9,34 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 public class oceansviewholder extends RecyclerView.ViewHolder {
-    private ImageView image;
-    private TextView name;
-    private TextView cname;
+    private final ImageView oimageView;
+    private final TextView oname;
+    private final TextView odesc;
+
+
 
     oceansviewholder(View itemView) {
         super(itemView);
-        name = itemView.findViewById(R.id.mname2);
-        image = itemView.findViewById(R.id.img2);
-        cname = itemView.findViewById(R.id.cname2);
+        oname = itemView.findViewById(R.id.mname2);
+        oimageView = itemView.findViewById(R.id.img2);
+        odesc = itemView.findViewById(R.id.cname2);
     }
 
-    public void setCname(String d) {
-        cname.setText(d);
+    public void setoDesc(String d) {
+        odesc.setText(d);
     }
 
-    public void setImage(String ima2, Context context) {
-        Glide.with(context).load(ima2).into(image);
+
+    public void setoImage(String image, Context context) {
+        Glide.with(context).load(image).into(oimageView);
 
 
     }
 
-    public void setName(String n) {
-        name.setText(n);
+    public void setoName(String n) {
+        oname.setText(n);
     }
+
 
 
 }

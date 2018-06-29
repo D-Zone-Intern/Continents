@@ -16,6 +16,7 @@
         <ImageView
             android:layout_width="75dp"
             android:layout_height="75dp"
+            android:layout_margin="10dp"
             android:contentDescription="@string/recimage"
             android:id="@+id/img2"/>
 
@@ -23,6 +24,7 @@
             android:id="@+id/cname2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:layout_toEndOf="@+id/img2"
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@+id/img2"

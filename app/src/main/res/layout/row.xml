@@ -17,13 +17,14 @@
             android:layout_width="75dp"
             android:contentDescription="@string/recimage"
             android:layout_height="75dp"
+            android:layout_margin="10dp"
             android:id="@+id/img"/>
 
         <TextView
             android:id="@+id/cname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
             android:textSize="30sp"
             android:layout_toEndOf="@+id/img"
             android:layout_toRightOf="@+id/img"
