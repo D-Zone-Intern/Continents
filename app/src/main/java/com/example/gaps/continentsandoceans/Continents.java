@@ -15,7 +15,7 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.continents);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         init();
     }
 
@@ -39,7 +39,7 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.asia :
+            case R.id.asia:
                 Intent intent = new Intent(this, next_Activity.class);
                 intent.putExtra("data","asia");
                 startActivity(intent);
@@ -107,14 +107,7 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
 
         return super.onOptionsItemSelected(item);
     }
-    @Override
-    public boolean onSupportNavigateUp(){
-        Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        finish();
-        return true;
-    }
+
 
     public void onBackPressed(){
         super.onBackPressed();

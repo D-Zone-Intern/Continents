@@ -27,7 +27,7 @@ public class nextActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next2);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         init();
 
     }
@@ -47,9 +47,9 @@ public class nextActivity2 extends AppCompatActivity {
         adapter2 = new FirebaseRecyclerAdapter<model2, oceansviewholder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull oceansviewholder holder, int position, @NonNull model2 model2) {
-                holder.setImage(model2.getImage(), nextActivity2.this);
-                holder.setName(model2.getName());
-                holder.setCname(model2.getCname());
+                holder.setoImage(model2.getoImage(), nextActivity2.this);
+                holder.setoName(model2.getoDesc());
+                holder.setoName(model2.getoName());
             }
 
             @NonNull
@@ -102,14 +102,7 @@ public class nextActivity2 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public boolean onSupportNavigateUp(){
-        Intent intent = new Intent(this,OceansActivity.class);
-        startActivity(intent);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        finish();
-        return true;
-    }
+
 
 
     public void onBackPressed(){
