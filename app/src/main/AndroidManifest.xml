@@ -41,24 +41,19 @@
         <activity
             android:name=".splash_normal"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-
         <activity
             android:name=".Continents"
             android:label="Continents" />
-
         <activity
             android:name=".OceansActivity"
-            android:label="Oceans">
-        </activity>
-
-        <activity android:name=".next_Activity">
-
-        </activity>
-
-        <activity android:name=".nextActivity2">
-
-        </activity>
-
+            android:label="Oceans" />
+        <activity android:name=".next_Activity" />
+        <activity android:name=".nextActivity2" />
+        <activity android:name=".Indian_ocean" />
+        <activity android:name=".southern_ocean" />
+        <activity android:name=".arctic_ocean" />
+        <activity android:name=".atlantic_ocean" />
+        <activity android:name=".pacific_ocean"></activity>
     </application>
 
 </manifest>
