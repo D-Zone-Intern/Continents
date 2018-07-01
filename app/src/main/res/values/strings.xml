@@ -16,4 +16,7 @@
     <string name="sliderImage">slider</string>
     <string name="recimage">recima</string>
     <string name="oceanAction">Oceans</string>
+    <string name="title_activity_next2">nextActivity2</string>
+    <string name="indianocean">itis good</string>
+    <string name="southernocean"> it is cold</string>
 </resources>

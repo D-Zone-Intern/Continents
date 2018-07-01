@@ -41,27 +41,27 @@ public class OceansActivity extends AppCompatActivity implements View.OnClickLis
         switch (v.getId()){
             case R.id.indianocean:
                 Intent intent = new Intent(this, nextActivity2.class);
-                intent.putExtra("data","asia");
+                intent.putExtra("dataa","Indian Ocean");
                 startActivity(intent);
                 break;
             case R.id.southernocean :
                 Intent i = new Intent(this, nextActivity2.class);
-                i.putExtra("data","europe");
+                i.putExtra("dataa","Southern Ocean");
                 startActivity(i);
                 break;
             case R.id.pacificocean :
                 Intent in = new Intent(this, nextActivity2.class);
-                in.putExtra("data","namerica");
+                in.putExtra("dataa","Pacific Ocean");
                 startActivity(in);
                 break;
             case R.id.arcticocean :
                 Intent inte = new Intent(this, nextActivity2.class);
-                inte.putExtra("data","samerica");
+                inte.putExtra("dataa","Arctic Ocean");
                 startActivity(inte);
                 break;
             case R.id.atlantisocean :
                 Intent inten = new Intent(this, nextActivity2.class);
-                inten.putExtra("data","africa");
+                inten.putExtra("dataa","Atlantic Ocean");
                 startActivity(inten);
                 break;
 
