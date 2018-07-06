@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
-            android:src="@drawable/arcticocean"/>
+            android:src="@drawable/arctic_ocean"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
