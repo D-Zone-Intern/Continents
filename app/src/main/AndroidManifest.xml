@@ -53,7 +53,9 @@
         <activity android:name=".southern_ocean" />
         <activity android:name=".arctic_ocean" />
         <activity android:name=".atlantic_ocean" />
-        <activity android:name=".pacific_ocean"></activity>
+        <activity android:name=".pacific_ocean" />
+        <activity android:name=".deserts" />
+        <activity android:name=".nextactivity3"></activity>
     </application>
 
 </manifest>

@@ -9,9 +9,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.github.chrisbanes.photoview.PhotoView;
+
 public class Continents extends AppCompatActivity implements View.OnClickListener {
         CardView asia,europe,africa,namerica,samerica,antarctica,australia;
-
+        PhotoView photoView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,8 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     }
 
     private void init() {
+        photoView = findViewById(R.id.svgone);
+        photoView.setImageResource(R.drawable.sevencontinents);
         asia = findViewById(R.id.asia);
         europe = findViewById(R.id.europe);
         africa = findViewById(R.id.africa);

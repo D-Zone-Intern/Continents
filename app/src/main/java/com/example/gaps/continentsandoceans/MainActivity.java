@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager mPager = findViewById(R.id.pager);
         Button btnconti = findViewById(R.id.button_continents);
         Button btnocean = findViewById(R.id.button_oceans);
+        Button btndes = findViewById(R.id.button_desert);
             btnocean.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -81,6 +82,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),Continents.class);
                 startActivity(i);
+            }
+        });
+        btndes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),deserts.class);
+                startActivity(i);
+
             }
         });
         mPager.setAdapter(new Adapter(this, picsArray));
