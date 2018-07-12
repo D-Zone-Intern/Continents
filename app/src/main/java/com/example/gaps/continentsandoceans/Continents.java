@@ -7,11 +7,14 @@ import android.support.v7.widget.CardView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
+
+import com.github.chrisbanes.photoview.PhotoView;
 
 public class Continents extends AppCompatActivity implements View.OnClickListener {
         CardView asia,europe,africa,namerica,samerica,antarctica,australia;
-
+        PhotoView photoView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,8 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     }
 
     private void init() {
+        photoView = findViewById(R.id.svgone);
+        photoView.setImageResource(R.drawable.sevencontinents);
         asia = findViewById(R.id.asia);
         europe = findViewById(R.id.europe);
         africa = findViewById(R.id.africa);
@@ -36,6 +41,63 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
         antarctica.setOnClickListener(this);
         australia.setOnClickListener(this);
     }
+
+        public void asia_button (View view){
+
+         Intent intent = new Intent(this, next_Activity.class);
+         intent.putExtra("data","asia");
+        startActivity(intent);
+
+         }
+
+    public void africa_button (View view){
+
+        Intent intent = new Intent(this, next_Activity.class);
+        intent.putExtra("data","africa");
+        startActivity(intent);
+
+    }
+
+    public void europe_button (View view){
+
+        Intent intent = new Intent(this, next_Activity.class);
+        intent.putExtra("data","europe");
+        startActivity(intent);
+
+    }
+
+    public void north_america_button (View view){
+
+        Intent intent = new Intent(this, next_Activity.class);
+        intent.putExtra("data","namerica");
+        startActivity(intent);
+
+    }
+
+    public void south_america_button (View view){
+
+        Intent intent = new Intent(this, next_Activity.class);
+        intent.putExtra("data","samerica");
+        startActivity(intent);
+
+    }
+
+    public void australia_button (View view){
+
+        Intent intent = new Intent(this, next_Activity.class);
+        intent.putExtra("data","antarctica");
+        startActivity(intent);
+
+    }
+
+    public void antarctica_button (View view){
+
+        Intent intent = new Intent(this, next_Activity.class);
+        intent.putExtra("data","asia");
+        startActivity(intent);
+
+    }
+
 
     @Override
     public void onClick(View v) {

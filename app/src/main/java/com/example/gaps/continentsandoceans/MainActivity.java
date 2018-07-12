@@ -1,39 +1,32 @@
 package com.example.gaps.continentsandoceans;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
+import android.location.Location;
 import android.location.LocationManager;
+import android.net.Uri;
 import android.os.Build;
-import me.relex.circleindicator.CircleIndicator;
-import android.os.Handler;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v7.widget.CardView;
+import android.view.View;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.content.Context;
-import android.support.v4.view.PagerAdapter;
-import android.view.LayoutInflater;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.location.Location;
-import android.location.LocationListener;
-
-
-
-import com.google.android.gms.common.ConnectionResult;
-
-
-
-import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -43,44 +36,130 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
+import me.relex.circleindicator.CircleIndicator;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     private static final Integer[] pics = {R.drawable.s1, R.drawable.s2};
     private TextView txtloc;
     private ArrayList<Integer> picsArray = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         init();
+
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
     public void onBackPressed() {
-        finish();
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.nav_home) {
+            // Handle the camera action
+        } else if (id == R.id.nav_contact) {
+
+        } else if (id == R.id.nav_about) {
+
+        } else if (id == R.id.nav_rate) {
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse("market://details?id=" + getPackageName()));
+            startActivity(i);
+
+        } else if (id == R.id.nav_share) {
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Explore all Continents, Oceans and Deserts.");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT,
+                    " https://play.google.com/store/apps/details?id=" + getPackageName());
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+
+        } else if (id == R.id.nav_send) {
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 
     private void init() {
         Collections.addAll(picsArray, pics);
         txtloc = findViewById(R.id.textView2);
-        ViewPager mPager = findViewById(R.id.pager);
-        Button btnconti = findViewById(R.id.button_continents);
-        Button btnocean = findViewById(R.id.button_oceans);
-            btnocean.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent(getApplicationContext(),OceansActivity.class);
-                    startActivity(i);
-                }
-            });
 
-        btnconti.setOnClickListener(new View.OnClickListener() {
+        ViewPager mPager = findViewById(R.id.pager);
+        CardView cardcontinents = findViewById(R.id.button_continents);
+        CardView cardocean = findViewById(R.id.button_oceans);
+        CardView cardDesert = findViewById(R.id.button_desert);
+        cardocean.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),OceansActivity.class);
+                startActivity(i);
+            }
+        });
+
+        cardcontinents.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),Continents.class);
                 startActivity(i);
+            }
+        });
+        cardDesert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),deserts.class);
+                startActivity(i);
+
             }
         });
         mPager.setAdapter(new Adapter(this, picsArray));
@@ -119,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
             case 1000: {
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-                    if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                         // TODO: Consider calling
                         //    ActivityCompat#requestPermissions
                         // here to request the missing permissions, and then overriding
@@ -147,27 +226,23 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.M && checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION)
-        != PackageManager.PERMISSION_GRANTED){
+        if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.M && checkSelfPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED){
             requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},1000);
         }else {
             LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
             assert locationManager != null;
             Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-           try
-           {
-               String city = getlocation(location.getLatitude(),location.getLongitude());
-            txtloc.setText(city);
-        }catch (Exception e){
-               Toast.makeText(getApplicationContext(),"not found",Toast.LENGTH_LONG).show();
+            try
+            {
+                String city = getlocation(location.getLatitude(),location.getLongitude());
+                txtloc.setText(city);
+            }catch (Exception e){
+                Toast.makeText(getApplicationContext(),"not found",Toast.LENGTH_LONG).show();
 
-           }
+            }
         }
     }
-
-
-
-
 
 
 }

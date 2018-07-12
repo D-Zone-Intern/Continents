@@ -10,6 +10,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/svgtwo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/click_on_image_the_to_zoom"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="25dp"
+            android:background="?android:attr/listDivider" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/ocean_definition"/>
 
 
         <android.support.v7.widget.CardView
@@ -26,14 +55,7 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/indian_ocean" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="Indian Ocean"
-                android:textAlignment="center"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
@@ -50,14 +72,7 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/southern_ocean" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="Southern Ocean"
-                android:textAlignment="center"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
@@ -74,14 +89,7 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/pacific_ocean" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="Pacific Ocean"
-                android:textAlignment="center"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
@@ -98,14 +106,7 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/arctic_ocean" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="Arctic Ocean"
-                android:textAlignment="center"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
@@ -122,14 +123,7 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/atlantic_ocean" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="Atlantis Ocean"
-                android:textAlignment="center"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+
         </android.support.v7.widget.CardView>
 
 

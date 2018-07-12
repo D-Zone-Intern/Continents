@@ -4,11 +4,8 @@ import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import me.relex.circleindicator.CircleIndicator;
 

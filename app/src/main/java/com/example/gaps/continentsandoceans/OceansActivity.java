@@ -4,15 +4,15 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageButton;
+
+import com.github.chrisbanes.photoview.PhotoView;
 
 public class OceansActivity extends AppCompatActivity implements View.OnClickListener {
 
 
     CardView indianocean,southernocean,pacificocean,arcticocean,atlanticocean;
+    PhotoView photoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,8 @@ public class OceansActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void init() {
+        photoView = findViewById(R.id.svgtwo);
+        photoView.setImageResource(R.drawable.oceansgraphical);
         indianocean = findViewById(R.id.indian_ocean);
         southernocean = findViewById(R.id.southern_ocean);
         pacificocean = findViewById(R.id.pacific_ocean);
@@ -41,27 +43,27 @@ public class OceansActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.indian_ocean:
-                Intent intent = new Intent(this, Indian_ocean.class);
+                Intent intent = new Intent(this, oceanview_activty.class);
                 intent.putExtra("dataa","Indian Ocean");
                 startActivity(intent);
                 break;
             case R.id.southern_ocean :
-                Intent i = new Intent(this, southern_ocean.class);
+                Intent i = new Intent(this,  oceanview_activty.class);
                 i.putExtra("dataa","Southern Ocean");
                 startActivity(i);
                 break;
             case R.id.pacific_ocean :
-                Intent in = new Intent(this, pacific_ocean.class);
+                Intent in = new Intent(this, oceanview_activty.class);
                 in.putExtra("dataa","Pacific Ocean");
                 startActivity(in);
                 break;
             case R.id.arctic_ocean :
-                Intent inte = new Intent(this, arctic_ocean.class);
+                Intent inte = new Intent(this,  oceanview_activty.class);
                 inte.putExtra("dataa","Arctic Ocean");
                 startActivity(inte);
                 break;
             case R.id.atlantis_ocean :
-                Intent inten = new Intent(this, atlantic_ocean.class);
+                Intent inten = new Intent(this,  oceanview_activty.class);
                 inten.putExtra("dataa","Atlantic Ocean");
                 startActivity(inten);
                 break;
