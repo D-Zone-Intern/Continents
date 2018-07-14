@@ -10,7 +10,7 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_contact"
-            android:icon="@drawable/contact"
+            android:icon="@drawable/contactus"
             android:title="@string/contact_us" />
         <item
             android:id="@+id/nav_about"
@@ -18,7 +18,7 @@
             android:title="@string/about_us" />
         <item
             android:id="@+id/nav_rate"
-            android:icon="@drawable/rate"
+            android:icon="@drawable/rateus"
             android:title="@string/rate_us" />
     </group>
 
@@ -29,9 +29,9 @@
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/share" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/send" />
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="@string/exit" />
         </menu>
     </item>
 

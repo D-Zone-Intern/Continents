@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Continents and Oceans</string>
+    <string name="app_name">Continents, Oceans and Deserts</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="splash_screen"> Continents and Oceans</string>
@@ -120,7 +120,7 @@ As the Atlantic slowly gets wider, the Pacific is slowly shrinking. It does this
     <string name="atlantic_ocean">Atlantic_ocean</string>
     <string name="atlantis_ocean_txt">The next largest ocean is the Atlantic, with an area of 41,081,270 sq miles (106,400,000 km²). It is bounded by the Americas to its west, and by the western shores of Europe and Africa to its east. It includes the Mediterranean, Caribbean and Baltic Seas, and the Gulf of Mexico. Like the Pacific Ocean, it reaches to the Arctic and Antarctica. In European History, the Indian and eastern Atlantic Oceans were the most completely charted of the world’s seas until the 15th Century; indeed this area was considered the sum total of the known world. With the escalation of the Spice Trade, desire for a Western route to the East Indies led to the eventual navigation of the globe as we now know it. The warm, stormy waters of the North Atlantic once supported great populations of cod and sperm whale. Cod has been an important human food source for hundreds of years, notably during the founding of America’s colonies, when North American settlements relied heavily upon cod’s easily preserved high-quality flesh. The sperm whale, at over 20 meters in length, is the largest living toothed animal. It has huge stores of bodily oil, used to light the lamps of Europe and North America, made this whale greatly sought-after in the late 18th and early 19th Centuries, nearly leading to its extinction. While high-quality whale oil continued to be used in many industries well into the 20th Century, the development of kerosene meant the end to large-scale sperm whale hunting.</string>
     <string name="images">images</string>
-    <string name="continets">Continets</string>
+    <string name="continets">Continents</string>
     <string name="oceans">Oceans</string>
     <string name="deserts">Deserts</string>
     <string name="title_activity_main2">Main2Activity</string>
@@ -137,6 +137,8 @@ As the Atlantic slowly gets wider, the Pacific is slowly shrinking. It does this
     <string name="communicate">Communicate</string>
     <string name="share">Share</string>
     <string name="send">Send</string>
+    <string name="exit">Exit</string>
+    <string name="countory">India</string>
 
 
 </resources>

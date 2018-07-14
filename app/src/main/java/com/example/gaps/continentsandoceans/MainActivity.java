@@ -41,8 +41,9 @@ import me.relex.circleindicator.CircleIndicator;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final Integer[] pics = {R.drawable.s1, R.drawable.s2};
+    private static final Integer[] pics = {R.drawable.s1, R.drawable.s2, R.drawable.s3};
     private TextView txtloc;
+
     private ArrayList<Integer> picsArray = new ArrayList<>();
 
 
@@ -75,27 +76,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -122,7 +103,8 @@ public class MainActivity extends AppCompatActivity
                     " https://play.google.com/store/apps/details?id=" + getPackageName());
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_exit) {
+            finish();
 
         }
 
@@ -134,6 +116,7 @@ public class MainActivity extends AppCompatActivity
     private void init() {
         Collections.addAll(picsArray, pics);
         txtloc = findViewById(R.id.textView2);
+
 
         ViewPager mPager = findViewById(R.id.pager);
         CardView cardcontinents = findViewById(R.id.button_continents);
@@ -198,7 +181,7 @@ public class MainActivity extends AppCompatActivity
             case 1000: {
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-                    if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                         // TODO: Consider calling
                         //    ActivityCompat#requestPermissions
                         // here to request the missing permissions, and then overriding
@@ -211,7 +194,9 @@ public class MainActivity extends AppCompatActivity
                     assert locationManager != null;
                     Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
                     String city = getlocation(location.getLatitude(),location.getLongitude());
-                    txtloc.setText(city);
+                    txtloc.setText(city+", India");
+
+
                 }else {
 
                     Toast.makeText(getApplicationContext(),"Permission not granted. Please grant permission on next app launch.",Toast.LENGTH_LONG).show();
@@ -236,7 +221,8 @@ public class MainActivity extends AppCompatActivity
             try
             {
                 String city = getlocation(location.getLatitude(),location.getLongitude());
-                txtloc.setText(city);
+                txtloc.setText(city+", India");
+
             }catch (Exception e){
                 Toast.makeText(getApplicationContext(),"not found",Toast.LENGTH_LONG).show();
 
