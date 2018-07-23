@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".desertview_activity">
+    tools:context=".continentsview">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imagest"
+            android:id="@+id/imagecont"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="fitXY"
@@ -20,19 +20,21 @@
             android:layout_marginBottom="20dp"/>
 
         <TextView
-            android:id="@+id/desertname"
+            android:id="@+id/textcont"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:textSize="25sp"/>
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
 
         <TextView
-            android:id="@+id/textst"
+            android:id="@+id/txtclick"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
             android:layout_width="match_parent"
-            android:textColor="#000000"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimary"
             android:layout_margin="10dp"
             android:textSize="20sp"/>
 

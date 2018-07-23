@@ -15,7 +15,7 @@
 
     <application
         android:name=".firebasehelper"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@mipmap/ic_launcher_foreground"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -58,7 +58,15 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".continentsview"
+            android:label="Continents"/>
+        <activity android:name=".contactus"
+            android:label="Contact Us"/>
+        <activity android:name=".aboutus"
+            android:label="About Us">
+
+        </activity>
     </application>
 
 </manifest>

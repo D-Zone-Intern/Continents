@@ -28,7 +28,7 @@ public class next_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.next_activity);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         init();
 
     }
@@ -77,10 +77,20 @@ public class next_Activity extends AppCompatActivity {
     }
 
 
+    @Override
+    public boolean onSupportNavigateUp(){
+        Intent intent = new Intent(this, continentsview.class);
+        startActivity(intent);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        finish();
+        return true;
+    }
 
+    @Override
+    public void onBackPressed() {
 
-    public void onBackPressed(){
         super.onBackPressed();
+
         finish();
     }
 }

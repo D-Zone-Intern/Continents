@@ -18,8 +18,17 @@ public class OceansActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oceans);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         init();
+    }
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        finish();
+        return true;
     }
 
     private void init() {
@@ -76,8 +85,11 @@ public class OceansActivity extends AppCompatActivity implements View.OnClickLis
 
 
 
-    public void onBackPressed(){
+    @Override
+    public void onBackPressed() {
+
         super.onBackPressed();
+
         finish();
     }
 

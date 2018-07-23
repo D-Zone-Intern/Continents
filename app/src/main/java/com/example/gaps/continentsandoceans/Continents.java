@@ -19,7 +19,7 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.continents);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         init();
     }
 
@@ -42,98 +42,53 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
         australia.setOnClickListener(this);
     }
 
-        public void asia_button (View view){
-
-         Intent intent = new Intent(this, next_Activity.class);
-         intent.putExtra("data","asia");
+    @Override
+    public boolean onSupportNavigateUp(){
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
-
-         }
-
-    public void africa_button (View view){
-
-        Intent intent = new Intent(this, next_Activity.class);
-        intent.putExtra("data","africa");
-        startActivity(intent);
-
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        finish();
+        return true;
     }
 
-    public void europe_button (View view){
 
-        Intent intent = new Intent(this, next_Activity.class);
-        intent.putExtra("data","europe");
-        startActivity(intent);
-
-    }
-
-    public void north_america_button (View view){
-
-        Intent intent = new Intent(this, next_Activity.class);
-        intent.putExtra("data","namerica");
-        startActivity(intent);
-
-    }
-
-    public void south_america_button (View view){
-
-        Intent intent = new Intent(this, next_Activity.class);
-        intent.putExtra("data","samerica");
-        startActivity(intent);
-
-    }
-
-    public void australia_button (View view){
-
-        Intent intent = new Intent(this, next_Activity.class);
-        intent.putExtra("data","antarctica");
-        startActivity(intent);
-
-    }
-
-    public void antarctica_button (View view){
-
-        Intent intent = new Intent(this, next_Activity.class);
-        intent.putExtra("data","asia");
-        startActivity(intent);
-
-    }
 
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.asia:
-                Intent intent = new Intent(this, next_Activity.class);
+                Intent intent = new Intent(this, continentsview.class);
                 intent.putExtra("data","asia");
                 startActivity(intent);
                 break;
             case R.id.europe :
-                Intent i = new Intent(this, next_Activity.class);
+                Intent i = new Intent(this, continentsview.class);
                 i.putExtra("data","europe");
                 startActivity(i);
                 break;
             case R.id.namaerica :
-                Intent in = new Intent(this, next_Activity.class);
+                Intent in = new Intent(this, continentsview.class);
                 in.putExtra("data","namerica");
                 startActivity(in);
                 break;
             case R.id.samerica :
-                Intent inte = new Intent(this, next_Activity.class);
+                Intent inte = new Intent(this, continentsview.class);
                 inte.putExtra("data","samerica");
                 startActivity(inte);
                 break;
             case R.id.africa :
-                Intent inten = new Intent(this, next_Activity.class);
+                Intent inten = new Intent(this, continentsview.class);
                 inten.putExtra("data","africa");
                 startActivity(inten);
                 break;
             case R.id.australia :
-                Intent intent1 = new Intent(this, next_Activity.class);
+                Intent intent1 = new Intent(this, continentsview.class);
                 intent1.putExtra("data","australia");
                 startActivity(intent1);
                 break;
             case R.id.antarctica :
-                Intent intent2 = new Intent(this, next_Activity.class);
+                Intent intent2 = new Intent(this, continentsview.class);
                 intent2.putExtra("data","antarctica");
                 startActivity(intent2);
                 break;
@@ -143,14 +98,17 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     }
 
 
+    @Override
+    public void onBackPressed() {
 
-
-
-
-
-
-    public void onBackPressed(){
         super.onBackPressed();
+
         finish();
     }
+
+
+
+
+
+
 }

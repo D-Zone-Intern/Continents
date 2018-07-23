@@ -10,7 +10,6 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_marginTop="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,14 +64,14 @@
             <android.support.v7.widget.CardView
                 android:id="@+id/button_continents"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="8dp">
 
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="160dp"
                     android:contentDescription="@string/images"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/continents" />
@@ -83,9 +82,8 @@
                     android:layout_gravity="bottom"
                     android:text="@string/continets"
                     android:textAlignment="center"
-                    android:textColor="#ffffff"
-                    android:background="#757575"
-                    android:textSize="30sp" />
+
+                    android:textSize="20sp" />
 
 
             </android.support.v7.widget.CardView>
@@ -93,14 +91,14 @@
             <android.support.v7.widget.CardView
                 android:id="@+id/button_oceans"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="8dp">
 
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="160dp"
                     android:contentDescription="@string/images"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/oceans" />
@@ -111,9 +109,8 @@
                     android:layout_gravity="bottom"
                     android:text="@string/oceans"
                     android:textAlignment="center"
-                    android:textColor="#ffffff"
-                    android:background="#757575"
-                    android:textSize="30sp" />
+
+                    android:textSize="20sp" />
 
 
             </android.support.v7.widget.CardView>
@@ -121,14 +118,14 @@
             <android.support.v7.widget.CardView
                 android:id="@+id/button_desert"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="8dp">
 
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="160dp"
                     android:contentDescription="@string/images"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/desert" />
@@ -139,9 +136,8 @@
                     android:layout_gravity="bottom"
                     android:text="@string/deserts"
                     android:textAlignment="center"
-                    android:textColor="#ffffff"
-                    android:background="#757575"
-                    android:textSize="30sp" />
+
+                    android:textSize="20sp" />
 
 
             </android.support.v7.widget.CardView>

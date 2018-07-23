@@ -1,144 +1,424 @@
 <resources>
     <string name="app_name">Continents, Oceans and Deserts</string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="splash_screen"> Continents and Oceans</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="you_are_here">You are in</string>
-    <string name="button1">Continents</string>
-    <string name="button2">Oceans</string>
-    <string name="next_button">next</string>
-    <string name="finish_button">finish</string>
     <string name="prev_button">prev</string>
     <string name="Welcome_spash">Explore all the Continents \n Oceans and Deserts. </string>
     <string name="splash_image">splash image</string>
-    <string name="action_settings">Share</string>
     <string name="sliderImage">slider</string>
     <string name="recimage">recima</string>
-    <string name="oceanAction">Oceans</string>
-    <string name="title_activity_next2">nextActivity2</string>
-    <string name="indianocean">itis good</string>
-    <string name="southernocean"> it is cold</string>
-    <string name="continentsdefenition">Planet Earth is home to 7.3 billion people and over 1.5 million different species of animals, insects, and plants spread across 7 continents.
-        Earth was not always comprised on seven continents. 175 million years ago the 7 continents were all connected into one supercontinent surrounded by a very large ocean. This supercontinent is known as Pangaea.
-        \n\nIt slowly began to break apart into 7 different pieces and drift into the positions we find them in the present. But, the continents are not at rest.
-        They are always moving and over time will move and drift into entirely new continents over the next several hundred million years.</string>
-
-    <string name="what_is_continent">Though there are many definitions of the term “continent,” it is generally used to identify large distinct land masses that make up planet Earth’s surface.
-        \n\nWhat we know as land are actually the areas which happen to be at a high enough elevation to not be flooded by the lakes, rivers, and oceans of the world which surround them.
-        \n\nThe continents shapes and boundaries are ever-changing as the water surrounding them defines the land that makes up the continent. It is important to remember the five oceans of the world, as the continents make up just 1/3rd of Earth’s surface.</string>
 
 
-    <string name="pacificOceantext">The Pacific Ocean is the body of water between Asia and Australia in the west,
-        the Americas in the east, the Southern Ocean to the south, and the Arctic Ocean to the north. It is the largest named ocean and it covers one-third of the surface of the entire world.
-        It joins the Atlantic Ocean at a line drawn south from Cape Horn, Chile/Argentina to Antarctica, and joins the Indian Ocean at a line drawn south from Tasmania, Australia to Antarctica.
 
-As the Atlantic slowly gets wider, the Pacific is slowly shrinking. It does this by folding the sea floor in towards the center of the Earth - this is called subduction.
-        This bumping and grinding is hard so there are many earthquakes and volcanoes when the pressure builds up and is quickly released as large explosions of hot rocks and dust.
-        When an earthquake happens under the sea, the quick jerk causes a tsunami. This is why tsunamis are more common around the edge of the Pacific than anywhere else.
-        Many of the Earth's volcanoes are either islands in the Pacific, or are on continents within a few hundred kilometers of the ocean's edge. Plate tectonics are another reason which makes Pacific Ocean smaller.</string>
-    <string name="atlantistxt">Earth\'s oceans (World Ocean) Atlantic Ocean.png Atlantic Ocean Arctic Ocean Indian Ocean Pacific Ocean Southern Ocean View from Nantucket, Massachusetts The Atlantic Ocean is the world\'s second largest ocean.
-        It covers a total area of about 106,400,000 square kilometres (41,100,000 square miles).[1] It covers about 20 percent of the Earth\'s surface.[1] It is named after the god Atlas from Greek mythology. Its name means</string>
-    <string name="southerntxt">The Southern Ocean is the ocean around Antarctica. It was a new term in geography officially created in 2000. It means the waters of the Atlantic, Pacific,
-        and Indian Oceans around the continent of Antarctica out to sixty degrees south latitude.
-        Some people call this ocean the Antarctic Ocean.
-        The total area is 20,327,000 km², and the coastline length is 17,968 km.</string>
-    <string name="arctictxt">Earth\'s oceans (World Ocean) Arctic Ocean.png Atlantic Ocean Arctic Ocean Indian Ocean Pacific Ocean Southern Ocean Arctic Ocean and the surrounding lands The Arctic Ocean is the ocean around the North Pole.
-        The most northern parts of Eurasia and North America are around the Arctic Ocean.
-        Thick pack ice and snow cover almost all of this ocean in winter, and most of it in summer. An icebreaker or a nuclear-powered submarine can use the Northwest Passage through the Arctic Ocean to go between the Pacific and Atlantic oceans.
-        The ocean\'s area is about 14.056 million km2, which is the smallest of the world\'s 5 oceans,
-        and it has 45,389 kilometres (28,203 miles) of coastline. The central surface covered by ice about 3 metres (9.8 feet) thick. The biology there is quite special. Endangered species there include walruses, whales and polar bears.
-        Year by year the Arctic ocean is becoming less icy, as a result of global warming.
-        The average depth of the Arctic Ocean is 1,038 metres (3,406 feet).[1] The deepest point is in the Eurasian Basin, at 5,450 m (17,881 ft).</string>
-    <string name="indianoceantxt">Earth\'s oceans (World Ocean) Indianocean.PNG Atlantic Ocean Arctic Ocean Indian Ocean Pacific Ocean Southern Ocean The Indian Ocean is the ocean surrounded by Asia to the north,
-        Australia and the Pacific Ocean to the east, the Southern Ocean to the south, and Africa and the Atlantic Ocean to the west. It is named for the river Indus and Ancient India on its north shore. The Bay of Bengal, the Arabian Sea,
-        the Persian Gulf and the Red Sea are all parts of this ocean. The deepest point in the Indian Ocean is in the Java Trench near the Sunda Islands in the east, 7500 m (25,344 feet) deep. The average depth is 3,890 m (12,762 ft).
-        The Indian Ocean is the third largest ocean, 28,350,000 square miles in size. The majority is in the southern hemisphere.</string>
-    <string name="button3">Deserts</string>
-    <string name="antarcticadesert">Conversely, the name Antarctica derives from a Greek word meaning “opposite to the arctic” or “opposite to the north,” which is a rather textbook description given that it is the southernmost continent on Earth. Not unsurprisingly, Antarctica contains the geographic South Pole. It lies almost entirely south of the Antarctic Circle and is surrounded by the Southern Ocean. It is the fifth largest continent in the world, covering more than 5,400,000 square miles (14,000,000 square kilometers). That’s 1.3 times the size of Europe! Almost 98 percent of Antarctica is covered in ice that averages 1.2 miles (1.9 kilometers) in thickness, which accounts for 90% of the world’s ice and 70% of the world’s fresh water. Considered a desert climate, Antarctica has an annual precipitation of only 8 inches (200 millimeters) near the coast and much less when venturing further inland. Antarctica is extremely cold – the coldest continent on Earth – with temperatures reaching as low as -129°F (-89°C)! There is no evidence of an indigenous population in Antarctica, and to this day, there are no permanent human residents (though there are scientists who bravely face the cold in the name of science!). But life still endures from algae and bacteria to animals like penguins and seals</string>
-    <string name="saharadesert">Of the deserts of the world, the Sahara Desert is the largest desert that falls into a sub-tropical climate. The Sahara covers most of northeastern Africa which is about 10% of the continent. It is nearly as large as the United States in terms of land area. It can take upwards of a week to cross this desert by car and more than 40 days walking! Though the Sahara is expansive, it is technically is the 3rd largest desert after Antarctica and the Arctic. The Sahara extends from the Atlantic Ocean in the west to the Mediterranean in the north to the Red Sea in the east. There are 10 countries in Africa that have some part of their nation in the Sahara desert. The Sahara has some of the largest sand dunes in the world. Some can reach nearly 600 feet (183 meters) tall. Though movie productions may have convinced us otherwise, only one-fourth of the Sahara terrain is actually comprised of sand dunes. The average temperature in the Sahara is a comfortable 86°F (29°C), but can reach as high as 120°F (49°C) in hottest months of the year.
-        If that isn’t hot enough for you, the record temperature was reported at a steamy 136°F (58°C)!</string>
-    <string name="thardesert">The Thar Desert is also known as the Great Indian Desert and lies in the northwestern part of India – predominantly in the Royal Rajasthan states. It is the 7th largest sub-tropical desert and the most sparsely populated region in India. Even so, the Thar Desert is the most densely populated desert in the world. Because of the increase in population in the area, the Thar Desert is home to a series of festivals every year which are celebrated with music and dance. The desert is uniquely home to five salt water lakes that mark the landscape.</string>
-    <string name="arabiandesert">The Arabian Desert is named after its location as it makes up nearly all of the Arabian Peninsula, which includes the countries of Qatar, Yemen, Oman, United Arab Emirates, Kuwait, and Saudi Arabia. In the center of the Arabian Desert, you will find Earth’s largest area of unbroken sand called Rub’al-Khali. The rest of the desert is made up of gravel plains and rocky hills. It also includes natural occurrences of the notorious and lethal “quicksand.” The Arabian Desert borders the Nile River Valley on its west side and the Gulf of Suez on the eastern end, which makes it essentially surrounded by water on all sides with the exception of the northeast corner that connects it with the Asian continent.</string>
-    <string name="kalaharidesert">The Kalahari Desert is unique among the subtropical deserts. It happens to get significantly more rainfall and support more diverse life than its counterparts. It receives nearly double the rainfall (5–9 inches annually) of the Arabian and Sahara desert, yet portions of the Kalahari still meet the definition of a desert in terms of rainfall. It covers most of the African nations of Namibia, Botswana, and portions of South Africa. The Kalahari is approximately 600 miles (966 km) wide and 1,000 miles (1,609 km) north to south. Within the expanse of the Kalahari Desert, you will find the Central Kalahari Game Reserve - the second largest protected area for wildlife in the world.</string>
-    <string name="namibdesert">The Namib Desert is classified as a coastal desert and is located in the southern part of Africa. It occupies 1,200 miles (2,000 km) of coastline in the countries of South Africa, Namibia, and Angola. It is widely accepted that the Namib Desert has had a similar arid climate for more than 50 million years, which would make it the oldest desert on Earth. The Namib features gravel plains, mountains, and sand dunes. The sand dunes can grow as high as 1,000 feet tall (302 m) and be more than 15 miles long (30 km). This area is almost entirely unsettled by humans. The Namib Desert gets less than 0.4 inches (10 mm) of rain a year, making it one of the most rain-starved areas in the world!</string>
-    <string name="gobidesert">The deserts of the world list would not be complete without the largest desert region in Aisa, the Gobi desert, covering portions of northern and northwestern China and southern Mongolia. As part of the great ancient Mongol Empire (the largest contiguous empire in history) and home to several significant cities along the Silk Road, the Gobi has been one of the more prominent deserts of our history books. The Gobi spans across 500,000 square miles (1,295,000 square kilometers), making it the fifth-largest desert in the world boasting five of its own ecoregions. And due to a process known as desertification, the Gobi continues to expand at an alarming rate. Though the Gobi is home to sand dunes that can be covered in frost or even snow, much of its landscape is actually comprised of exposed bare rock due to winds that whip across the plateau – a far cry from the shifting sands of neighboring Taklamakan desert. The climate of this desert is one of great extremes, characterized by rapid temperature changes – sometimes by as much as 63°F (35°C) in 24 hours!
-        The wind of the Siberian Steppes further cause the desert to reach lows of -40°F (-40°C) in winter despite extreme highs of up to 122°F (50°C) in the summer. The Gobi has also been a noteworthy source of significant fossil finds, such as the first discovered dinosaur eggs.</string>
-    <string name="desert_definition">Deserts cover about one-third of the Earth’s land surface area. But the deserts of the world are much more than just the sandy, lifeless dunes of storybooks.
-        The deserts found on Earth are extremely diverse, each unique in their own way.
-        The dunes of the Saharan Desert, the icy tundra of Antarctica, and the Pacific coastline of the Atacama Desert are all deserts.
-        That is right; they are all scientifically classified as deserts despite their differences. But it is quite simple,
-        really, as they all share one common trait that qualifies them as a desert region: they all receive less than 10 inches (250 mm) of rainfall a year.\n\n Because of the diversity of deserts under this definition,
-        they have been split into sub-regions: Sub-Tropical Deserts, Cool Coastal Deserts, Cold Winter Deserts, and Polar Deserts.</string>
-    <string name="ocean_definition">The surface of Planet Earth is around 70% water, over 96% of which is salt water. While this vast area is mostly interconnected,
-        it is broken up into large and small bodies by the seven continents and other landmasses. The largest of these bodies are known as the Great Oceans.</string>
+
+    <string name="what_is_continent">Though there are many definitions of the term “continent,” it is generally used to identify large distinct land masses that make up planet Earth’s surface. What we know as land are actually the areas which happen to be at a high enough elevation to not be flooded by the lakes, rivers, and oceans of the world which surround them. The continents shapes and boundaries are ever-changing as the water surrounding them defines the land that makes up the continent.</string>
+
+
+    <string name="pacificOceantext">The Pacific Ocean is the biggest ocean on Earth, with an area of 63.8 million square miles. It is also bigger than all the land on the planet put together. It borders four continents: North America, South America, Australia, and Asia. The ocean is split into two parts that are divided by the equator. The two parts are the North Pacific Ocean and the South Pacific Ocean. The deepest part of the ocean and the whole world is the Mariana Trench, and it is 35,797 feet deep.
+    \n\n<b>HISTORY OF THE PACIFIC OCEAN</b>
+     \n\nIn the early 16th century, Europeans were the first to see the Pacific Ocean. Vasco Núñez de Balboa was a Spanish explorer that named the sea Mar Del Sur in 1513. But, the Pacific Ocean name came from Ferdinand Magellan, a Portuguese explorer who went on a world expedition in 1521. He named it Mar Pacifico in Portuguese, which means peaceful sea. The width of the ocean was accurately measured in 1768 by Pierre-Antoine Véron.
+    \n\n<b>FEATURES OF THE PACIFIC OCEAN</b>
+        \n\nThe Pacific Ocean separates North America and South America from Australia and Asia. It spreads from the Arctic area in the north to the Antarctic in the south. It stretches to 12,300 miles wide from Colombia to Indonesia, which is halfway across the planet. This number is over five times the width of the moon.
+\n\nEvery year, the Pacific Ocean shrinks approximately one inch on three sides. This is because of tectonic plates underneath the surface of the Earth. The Pacific Ocean experiences many tropical storms every year, and many areas around the ocean have earthquakes and volcanoes. The Pacific Ring of Fire is the world’s biggest chain of volcanoes, with a total of 452 volcanoes.
+\n\nMany seas sit along the western part of the Pacific Ocean, like the Sulu Sea, Celebes Sea, East China Sea, South China Sea, and Yellow Sea. The Pacific Ocean is connected to the Arctic Ocean by the Bering Strait. The Strait of Magellan and Drake Passage join the Pacific to the Atlantic Ocean. And the Strait of Malacca joins the Pacific Ocean and the Indian Ocean together.
+\n\nAbout 50.1 percent of the ocean water on Earth is in the Pacific Ocean, measuring about 680 million cubic miles of water. The temperature of the water is very cold in some areas around 29.5 °F and then very warm at about 86 °F by the equator. It is most salty in the southeastern parts and the least salty in the far north.
+\n\n<b>ECONOMY OF THE PACIFIC OCEAN</b>
+        \n\nThe Pacific Ocean is used for many things to make money for countries. In the shallow areas around Australia and New Zealand, natural gas and petroleum are pulled out. Pearls are collected on the coasts of the Philippines, Panama, Australia, Japan, Nicaragua, and New Guinea.
+\n\nFishing is a common activity in many areas of the Pacific Ocean. The shallow water has a lot more fish, including shellfish, salmon, herring, and swordfish. Over-fishing is a big problem in some places in the ocean.
+
+    </string>
+
+
+    <string name="atlantistxt">Covering 20% of the Earth’s entire surface, the Atlantic Ocean is the world’s second-largest ocean. It covers 29% of all of the Earth’s water surface making it second only to the Pacific Ocean. At its deepest point, the Milwaukee Deep off the coast of Puerto Rico, the Atlantic Ocean is 27,500 feet deep – that would fit a stack of almost 19 Empire State Buildings!
+\n\nThe western shores of the Atlantic Ocean are the coasts of North, Central, and South America. The North American countries include Canada and the United States. All of the Central and South American countries on the Caribbean Sea including Cuba, Jamaica, Panama, Columbia, Venezuela, and many others have an Atlantic coast, as well as the South American countries of Argentina and Brazil. The warm, moist air of the southern Atlantic ocean often brings rain, hurricanes and other turbulent weather to Central America and the southern United States before heading north and bringing turbulent weather to the east coast of the United States, including the notorious Nor’easter, and heavy fog off the coast of eastern Canada.
+\n\nHeading to the other side of “The Pond” as it’s known by Americans and Europeans, the Atlantic Ocean will bring you to Ireland and the United Kingdom, France, Spain and Portugal. The North Sea also brings Belgium, Germany, Denmark and Norway to the Atlantic, and Iceland can be found northwest of Europe in the Atlantic.
+\n\nTraveling south from Europe, the Atlantic Ocean will bring you to Africa. Here the Atlantic Ocean touches Morocco and travels down the African continent to include Sierra Leone, the Ivory Coast, Nigeria, the Congo, Namibia, and South Africa among the many others. The comparatively cool waters of the Atlantic Ocean off the African coast often bring dense fog to the northwestern coast of Africa.
+\n\nThe Atlantic Ocean is home to a wide range of wildlife including crabs, lobsters, shrimp, large whales and sharks, large mammals such as seals and dolphins, and hundreds of species of fish. The Atlantic coasts are home to dozens of species of birds including seagulls and albatross, and penguins can be found in the colder waters of the southern Atlantic. Many birds follow the migration route called the Atlantic Flyway that includes several shorter routes following the coast of North America that come together in the regions around the Gulf of Mexico near Florida, and then continue over Mexico and into the Caribbean sea.
+\n\nDue to many factors including pollution, oil spills, entanglement, overfishing, and illegal harvesting, the Atlantic is also home to several endangered species including whales, dolphins, manatees, birds and fish. The North Atlantic garbage patch, an area of concentrated trash and plastics, can be found in the Atlantic Ocean between North America and Europe. \n\nIt is estimated to be hundreds of miles across in size and estimated trash density of 120,000 pieces of debris per square mile. Scientists and environmentalists are currently looking for ways to reduce the accumulation of more trash in the garbage patch.
+</string>
+
+
+    <string name="arctictxt">With most of its waters lying in the Arctic north polar region, the Arctic Ocean is the smallest and shallowest of the world’s five oceans. Some scientists call the Arctic Ocean the North Mediterranean Sea or the Arctic Sea. Covering approximately 5,427,000 square miles, the body of water is approximately the size of Russia. Continents that border the Arctic include Europe, Asia, and North America. The U.S. and Russia maintain floating research stations in the region.
+    \n\nDue to its cold temperature, part of the ocean remains covered by ice throughout the year; however, nearly all of the water’s surface is covered in ice during winter. The water’s salt levels vary throughout the year along with temperature, though the Arctic generally contains less salt than the other four oceans due to its low evaporation rates and the large amount of freshwater that is contributed to the ocean by rivers and streams.
+    \n\nSea ice covers much of the Arctic Ocean and is generally thicker during colder seasons and thinner when the weather is warmer. Portions of sea ice can be moved across the ocean by wind and water currents. Icebergs may break off frozen land areas and create dangerous conditions for ships that sail across the Arctic. They may also from glaciers in Greenland and the parts of Canada that lie furthest northwest. Because the waters of the Arctic are covered in ice for most of the year, the cold temperatures of the ice cause subfreezing air temperatures in the area. The cold air then moves toward the equator and collides with warmer air along the way, causing rain and snow.
+    \n\nThere is little range between the weather from season to season in the Arctic region. Winters are generally continuously dark with clear skies, calm waters, and cold, stable weather. Summers include continuous sunlight, damp, foggy conditions, and mild cyclones that may include rain or snow.
+    \n\nThe Arctic Ocean’s ecosystem is very fragile and is home to many endangered species. Phytoplankton are the only plant types that live in the Arctic Ocean, and they play a very crucial role in the local ecosystem. They consume nutrients from streams that travel from the Atlantic and Pacific Oceans and photosynthesize during the summer months when there is virtually endless sunlight. \n\nThis abundant sunlight allows phytoplankton to reproduce very quickly. However, the very limited amount of sunlight the Arctic Ocean receives during the colder months makes it difficult for phytoplankton to survive during winter. One major environmental concern for the Arctic region is the slow rate at which it changes, which makes recovery from damage to the local environment a very slow process. Natural resources that may be used for commercial purposes are also found in the Arctic Ocean, including fish, petroleum, natural gas, sand, and gravel aggregates. The political dead zone in the area has also become a recent focal point, as the area may contain large oil and gas reserves.
+    </string>
+
+
+    <string name="indianoceantxt">
+The Indian Ocean is the third largest of the world’s five oceans, making up about 20% of Earth’s water. Named after the country of India, it is bordered by Asia to the north, Antarctica to the south, Australia to the east, and Africa to the west. The Indian Ocean boasts an area of approximately 28,360,000 square miles (73,440,000 sq km), including the Persian Gulf, Red Sea , Andaman Sea, Arabian Sea, Bay of Bengal, Flores Sea, Great Australian Bight, Gulf of Aden, Gulf of Oman, Java Sea, Mozambique Channel, Savu Sea, Strait of Malacca, Timor Sea, and other tributary water bodies. The Indian Ocean is the youngest of the world’s major oceans
+\n\n<b>GEOGRAPHY: ABOVE AND BELOW THE SURFACE</b>
+\n\nThere are a number of islands that line the continental edges of the Indian Ocean. Some of these major island nations include Madagascar, Comoros, Seychelles, Maldives, Mauritius, and Sri Lanka. In addition, there are several large rivers that flow into the Indian Ocean. These include the Indus, Ganges, Zambezi, Shatt al-Arab, Narmada, Brahmaputra, Jubba, and Irrawaddy rivers.
+Beneath the surface, the Indian Ocean has active spreading ridges that are part of the worldwide system of mid-ocean ridges. The ocean floor is most heavily occupied by the Mid-Indian Ocean Ridge. It is further divided by both the Southeast and Southwest Indian Ocean Ridges and the Ninety East Ridge.
+\n\n<b>CLIMATE</b>
+        \n\nThe Indian Ocean is the warmest ocean in the world. It is affected by a monsoon climate, which accounts for a characteristic reversal of surface currents. The northeast monsoon occurs between the months of December and April when high-pressure systems from cold, winter air cause strong, north-east winds to blow. Inversely, the southwest monsoon occurs from June to October. Its strong southwest winds are a direct result of low atmospheric pressure from hot, summer air. This unique reversal of surface currents often causes tropical cyclones from May to June and October to November.
+        \n\n<b>ECONOMY/TRADE</b>
+        \n\nThe Indian Ocean was opened to trade earlier than both the Atlantic and Pacific Oceans. Not only are its waters fairly calm, but its powerful monsoons also enable easy sailing for ships traveling west early in the season. The Indian Ocean is vital to the trade industry, as it provides major sea routes that connect the Middle East, Africa, and East Asia with Europe and the Americas.
+Approximately 40% of the world’s offshore oil production comes from the Indian Ocean, with an especially heavy traffic of petroleum and petroleum products coming from the oil fields of the Persian Gulf and Indonesia. The Indian Ocean provides its beaches with all kinds of valuable minerals. Countries like India, Pakistan, South Africa, Indonesia, Thailand, and Sri Lanka benefit from this. In addition, fishing fleets from bordering countries as well as Russia, Japan, South Korea, and Taiwan also take advantage of the Indian Ocean, as fish are extremely important to both consumption and trade.
+    </string>
+
+
+    <string name="antarcticadesert">Conversely, the name Antarctica derives from a Greek word meaning “opposite to the arctic” or “opposite to the north,” which is a rather textbook description given that it is the southernmost continent on Earth. Not unsurprisingly, Antarctica contains the geographic South Pole. \n\nIt lies almost entirely south of the Antarctic Circle and is surrounded by the Southern Ocean. It is the fifth largest continent in the world, covering more than 5,400,000 square miles (14,000,000 square kilometers). \n\nThat’s 1.3 times the size of Europe! Almost 98 percent of Antarctica is covered in ice that averages 1.2 miles (1.9 kilometers) in thickness, which accounts for 90% of the world’s ice and 70% of the world’s fresh water. \n\nConsidered a desert climate, Antarctica has an annual precipitation of only 8 inches (200 millimeters) near the coast and much less when venturing further inland. \n\nAntarctica is extremely cold – the coldest continent on Earth – with temperatures reaching as low as -129°F (-89°C)! \n\nThere is no evidence of an indigenous population in Antarctica, and to this day, there are no permanent human residents (though there are scientists who bravely face the cold in the name of science!). \n\nBut life still endures from algae and bacteria to animals like penguins and seals.</string>
+
+    <string name="saharadesert">Of the deserts of the world, the Sahara Desert is the largest desert that falls into a sub-tropical climate. The Sahara covers most of northeastern Africa which is about 10% of the continent. It is nearly as large as the United States in terms of land area. \n\nIt can take upwards of a week to cross this desert by car and more than 40 days walking! Though the Sahara is expansive, it is technically is the 3rd largest desert after Antarctica and the Arctic. \n\nThe Sahara extends from the Atlantic Ocean in the west to the Mediterranean in the north to the Red Sea in the east. There are 10 countries in Africa that have some part of their nation in the Sahara desert. \n\nThe Sahara has some of the largest sand dunes in the world. Some can reach nearly 600 feet (183 meters) tall. \n\nThough movie productions may have convinced us otherwise, only one-fourth of the Sahara terrain is actually comprised of sand dunes. \n\nThe average temperature in the Sahara is a comfortable 86°F (29°C), but can reach as high as 120°F (49°C) in hottest months of the year. \n\nIf that isn’t hot enough for you, the record temperature was reported at a steamy 136°F (58°C).</string>
+
+    <string name="thardesert">The Thar Desert is also known as the Great Indian Desert and lies in the northwestern part of India – predominantly in the Royal Rajasthan states. It is the 7th largest sub-tropical desert and the most sparsely populated region in India. \n\nEven so, the Thar Desert is the most densely populated desert in the world. Because of the increase in population in the area, the Thar Desert is home to a series of festivals every year which are celebrated with music and dance. The desert is uniquely home to five salt water lakes that mark the landscape.</string>
+
+    <string name="australiandesert">Australia is home to a wide range of desert areas due to its unique geographical features and climate. Two-thirds of the Australian continent is considered arid or desert, which makes the continent the driest on Earth after Antarctica. \n\nWhen you consider all the deserts of the world, Australia does not have the largest desert areas, but they do have the most desert areas of any continent when compared to the total continental surface area. There are 10 different deserts on the continent of Australia. Many are adjoining and some even overlap. \n\nThey include the Great Victoria Desert, Great Sandy Desert, Tanami Desert, Simpson Desert, Gibson Desert, Little Sandy Desert, Strzelecki Desert, Sturt Stony Desert, Tirari Desert, and Pedirka Desert. Not all are covered in the following information due to their resounding similarities to each other.</string>
+
+    <string name="arabiandesert">The Arabian Desert is named after its location as it makes up nearly all of the Arabian Peninsula, which includes the countries of Qatar, Yemen, Oman, United Arab Emirates, Kuwait, and Saudi Arabia. In the center of the Arabian Desert, you will find Earth’s largest area of unbroken sand called Rub’al-Khali. \n\nThe rest of the desert is made up of gravel plains and rocky hills. It also includes natural occurrences of the notorious and lethal “quicksand.” \n\nThe Arabian Desert borders the Nile River Valley on its west side and the Gulf of Suez on the eastern end, which makes it essentially surrounded by water on all sides with the exception of the northeast corner that connects it with the Asian continent.</string>
+
+    <string name="kalaharidesert">The Kalahari Desert is unique among the subtropical deserts. It happens to get significantly more rainfall and support more diverse life than its counterparts. It receives nearly double the rainfall (5–9 inches annually) of the Arabian and Sahara desert, yet portions of the Kalahari still meet the definition of a desert in terms of rainfall. \n\nIt covers most of the African nations of Namibia, Botswana, and portions of South Africa. The Kalahari is approximately 600 miles (966 km) wide and 1,000 miles (1,609 km) north to south. \n\nWithin the expanse of the Kalahari Desert, you will find the Central Kalahari Game Reserve – the second largest protected area for wildlife in the world.</string>
+
+    <string name="namibdesert">The Namib Desert is classified as a coastal desert and is located in the southern part of Africa. It occupies 1,200 miles (2,000 km) of coastline in the countries of South Africa, Namibia, and Angola. It is widely accepted that the Namib Desert has had a similar arid climate for more than 50 million years, which would make it the oldest desert on Earth. \n\nThe Namib features gravel plains, mountains, and sand dunes. The sand dunes can grow as high as 1,000 feet tall (302 m) and be more than 15 miles long (30 km). \n\nThis area is almost entirely unsettled by humans. The Namib Desert gets less than 0.4 inches (10 mm) of rain a year, making it one of the most rain-starved areas in the world!</string>
+
+    <string name="greatsandydesert">The Great Sandy Desert is the second largest desert of Australia. It is located in the northern section of Western Australia, just south of the coastline. The Great Sandy Desert is home to the Kata Tjuta – Uluru, otherwise known as Ayers – a world heritage site. \n\nAyers Rock is a huge sandstone formation that extends almost unexplainably from the flat desert to a mountain-plateau that reaches 1,150 feet (350 m) into the sky. There are also some very unique plants in the Great Sandy Desert, including the Desert Bloodwood – a mid-size tree that has blood-like sap and leathery leaves. But it has not always been great for wildlife in this desert. Invasive species have long been a problem. \n\nNearly 100 years ago, the Australian government built a fence around the Great Sandy Desert to try to keep out invasive species such as rabbits, fox, and cats. \n\nAt the time, it was the longest fence in the world and portions of the fence are still visible today.</string>
+
+    <string name="gobidesert">The deserts of the world list would not be complete without the largest desert region in Aisa, the Gobi desert, covering portions of northern and northwestern China and southern Mongolia. As part of the great ancient Mongol Empire (the largest contiguous empire in history) and home to several significant cities along the Silk Road, the Gobi has been one of the more prominent deserts of our history books. The Gobi spans across 500,000 square miles (1,295,000 square kilometers), making it the fifth-largest desert in the world boasting five of its own ecoregions. \n\nAnd due to a process known as desertification, the Gobi continues to expand at an alarming rate. \n\nThough the Gobi is home to sand dunes that can be covered in frost or even snow, much of its landscape is actually comprised of exposed bare rock due to winds that whip across the plateau – a far cry from the shifting sands of neighboring Taklamakan desert. \n\nThe climate of this desert is one of great extremes, characterized by rapid temperature changes – sometimes by as much as 63°F (35°C) in 24 hours! \n\nThe wind of the Siberian Steppes further cause the desert to reach lows of -40°F (-40°C) in winter despite extreme highs of up to 122°F (50°C) in the summer. \n\nThe Gobi has also been a noteworthy source of significant fossil finds, such as the first discovered dinosaur eggs</string>
+
+    <string name="kzyldesert">Located in Central Asia between the Amu Darya and Syr Darya rivers, the Kyzyl Kum desert covers approximately 115,000 square miles (298,000 square kilometers) of land. Kyzyl Kum is divided between the countries of Kazakhstan and Uzbekistan, with a small portion making an appearance in Turkmenistan (the home to the slightly larger Karakum Desert). \n\nKyzylkum is Turkic for “red sand,” describing the slightly reddish hue of the sand that comprises the desert’s expansive sand dunes and ridges. \n\nThough temperatures can be very high during the summer months, the annual precipitation is low and the winters are cold ranging from an average of 16°F to 32°F (-9°C to 0°C) in January. \n\nThe Kyzyl Kum desert also hosts a number of isolated mountains rising to upwards of 3,025 feet (922 m). </string>
+
+    <string name="taklamandesert">Also known as the Taklimakan or Teklimakan, the Taklamakan Desert covers northwest China and is the second largest shifting sand desert with about 85 percent of its area characterized by shifting sand dunes. \n\nBordered by the Kunlun Mountains to the south and the Pamir Mountains and the Tian Shan to the west and north, the Taklamakan’s eastern border faces the much larger Gobi Desert. \n\nThe Taklamakan covers an area of 130,116 square miles (337,000 square kilometers). Its northern and southern borders are bound by two branches of the ancient Silk Road, which merchant caravans would travel to avoid the depths of the harsh desert conditions. \n\nDue to the rain shadow of the Himalayas, the Taklamakan possesses the quintessential cold desert climate. Extreme lows can be recorded in winter, at times well below -4°F (-2°C), which in part can be attributed to the frigid air masses in neighboring Siberia. \n\nThe extreme inland location of the desert (it is located farther from an ocean than almost any point on Earth!) also accounts for the nightly chill even in the summer months.  </string>
+
+    <string name="grestbasindesert">The Great Basin Desert is the largest desert in the United States occupying approximately 190,000 square miles (490,000 square kilometers). \n\nCovering much of the southwestern US, the Great Basin desert borders the Sierra Nevada Range on the west and the Rocky Mountains to the east. To the north lies the Columbia Plateau – an expansive flood basalt plateau that covers the US states of Washington, Oregon, and parts of Idaho. \n\nTo the south, you will find other, smaller deserts of the southwestern US: the Mojave and Sonoran. The Great Basin exists primarily as a result of the great mountains that surround it, which cool the air and strip it of its moisture. \n\nIt is a cold desert mainly as a result of its elevation and latitude. \n\nIts 7–12 inches of annual participation primarily fall as snow – even in the warm summers! The Great Basin is also home to the world’s oldest living organisms according to the National Park Service: 5,000-year-old trees called bristlecone pines. </string>
+
+    <string name="greatvictoriadesert">The Great Victoria Desert is the largest desert in Australia and the 3rd largest sub-tropical desert in the world after the Sahara and Arabian. \n\nIt one of the least populated areas in the southwestern part of Australia. The Great Victorian Desert is surrounded by the Gibson Desert to the North, the Little Sandy Desert to the northwest, the Simpson and Sturt Stony Desert to the east, and plains to the south. \n\nThe Great Victorian Desert does not resemble what many think of as a desert. \n\nIt qualifies due to a lack of rainfall, yet you will not find endless sand dunes or barren plains there. \n\nThere is a significant amount of vegetation and wildlife present in the Great Victorian Desert which is what makes it such a visited location by tourists.  </string>
+
+    <string name="desert_definition">Deserts cover about one-third of the Earth’s land surface area. But the deserts of the world are much more than just the sandy, lifeless dunes of storybooks. \n\nThe deserts found on Earth are extremely diverse, each unique in their own way. The dunes of the Saharan Desert, the icy tundra of Antarctica, and the Pacific coastline of the Atacama Desert are all deserts. \n\nThat is right; they are all scientifically classified as deserts despite their differences. \n\nBut it is quite simple, really, as they all share one common trait that qualifies them as a desert region: they all receive less than 10 inches (250 mm) of rainfall a year.</string>
+
+    <string name="tanamidesert">Of the deserts in Australia, the Tanami Desert is the third largest. It is located in the northern territory in the central part of Australia. \n\nIt is found just east of the Great Sandy Desert. There is a stretch of road that stretches over 600 mi. (1,000km) and attracts four wheel drive enthusiasts from across the globe called the Tanami Track. \n\nIt is also heavily used by the mining industry as the Tanami Desert is rich in natural resources. \n\nLike many of the other deserts across Australia, this desert is home to many endangered plants and wildlife such as the Wallaby and Mulgara.  </string>
+
+    <string name="simpsondesert">The Simpson Desert is yet another sparsely populated area in central Australia in the eastern half of the continent. \n\nIt happens to be one of the driest deserts in Australia. It receives just 5 inches (125 mm) of rain annually. Even so, the area benefits from its geography when it comes to water. Flooding in adjoining areas funnels the water into the Simpson Desert region giving it a significantly higher amount of water to support its wildlife. \n\nIt also happens to be one of the last places in Australia that certain endangered animals call home. The fat-tailed marsupial mouse is extremely rare and largely found in this area of Australia. \n\nThe Simpson Desert also has a unique geological feature: It possesses the longest parallel sand dunes found anywhere on earth. Some can be up to 125 miles (201 km) long!  </string>
+
+    <string name="ocean_definition">The surface of Planet Earth is around 70% water, over 96% of which is salt water. While this vast area is mostly interconnected, it is broken up into large and small bodies by the seven continents and other landmasses. The largest of these bodies are known as the Great Oceans.</string>
+
+    <string name="mojavedesert">The Mojave Desert can be found in the southwestern United States covering portions of southern Nevada and southeastern California. \n\nThe Mojave Desert contains the infamous Death Valley, known for being the lowest point, driest location, and hottest area on the North American continent. The weather there is characterized by extreme heat and cold. \n\nIt can drop below freezing and exceed 75°F (23°C) in a single day. The record high for the Mojave is 134°F (57°C). The record cold temperature reached was 15°F (-10°C)! </string>
+
+    <string name="chihuhuvandesert">The Chihuahuan Desert is the largest desert in the North American continent. \n\nIt has a land area of over 390,000 square miles (1,010,095 square km) across the southern United States (30%) and Northern Mexico (70%). The Chihuahuan Desert reaches into Texas, Arizona, and New Mexico in the US and Chihuahua, Durango, Coahuila, Zacatecas, and Nuevo Leon in Mexico, which accounts for approximately 1.5% of the land area on the North American continent. \n\nIt is considered a “rain shadow desert,” which means that mountains that lay on the outskirts of the desert block much of the precipitation from entering. \n\nThis area is renowned for its high diversity of cacti with over 300 species found in within its boundaries.</string>
+
+    <string name="colaradudesrt">The Colorado Plateau is largely made up of desert, which covers 130,000 square miles (337,000 square kilometers) of the southwestern United States. \n\nThe Colorado Plateau, also referred to as the Colorado Plateau Province is roughly centered on what is known as the Four Corners region of the US: the point where the southwestern corner of Colorado, southeastern corner of Utah, northwestern corner of New Mexico, and the northeastern corner Utah meet. \n\nIt is the only area of the United States where the boundaries of four states touch. The plateau is a geologic enigma, remaining intact while punctuated by high mountain ranges and cut by low river canyons. \n\nThough the Colorado Plateau contains desert climates with warm summers and frigid winters, it is also scattered with areas of forest. \n\nBut the most famous feature of the plateau is the Grand Canyon, which has had a large hand in shaping the landscape of the “Red Rock Country” region. </string>
+
+    <string name="patigniandesert">The Patagonian Desert is the 7th largest desert in the world, covering 260,000 square miles (673,000 square kilometers) – the same size as the US state of Texas! \n\nIt spans much of the country of Argentina with small parts residing in Chile. To the west of the great desert are the Andes, the longest continental mountain range in the world. \n\nTo the east lies the Atlantic Ocean. The Patagonia Desert is truly a cold winter desert experiencing about seven months of winter and with temperatures that rarely exceed 53.6°F (12°C) and average only 37°F (3°C).\n\nNightly frosts are not uncommon year-round. \n\nAs is the case for most cold winter deserts, the Patagonia Desert exists because of the Andes mountains, which prevent the flow of moisture from the Pacific Ocean to the west and cause the formation of the arid desert climate. \n\nIn fact, before the Andes were formed, the desert was likely covered by temperate forests as evidenced by the petrified forests found in the desert’s center. \n\nMuch of the desert’s landscape is continuously sculpted (and re-sculpted) by the force of the wind, which also makes it the largest source of dust over the south Atlantic Ocean!  </string>
+
+    <string name="kurakumdesert">The Karakum desert is known by many names including the variation in spelling, Kara-Kum, and even Gara Gum in Turkmen and Karakumy in Russian. Its name means “black sand” in Turkic languages. \n\nThe desert inhabits about 70 percent, or 135,000 square miles (350,000 square kilometers), of present day Turkmenistan in Central Asia, east of the Caspian Sea. \n\nThe shrinking Aral Sea lies to the north of the desert, expanding the desert’s size by what is called the Aral Karakum, a desert in Kazakhstan that has formed on the former seabed. \n\nThe region is no stranger to desert climates, as just northeast of the Karakum desert is the Kyzyl Kum. \n\nBut the desert climate is marked by long, hot, and dry summers and unpredictable, cold winters. \n\nThe Karakum desert is also home to the Darvaza Gas Crater, affectionately known to the locals as the Door to Hell, which is a natural gas deposit that has been burning continuously since it was lit by Soviet petroleum engineers in 1971.  </string>
+
     <string name="what_is_a_continent_qus">What is a Continent?</string>
-    <string name="below_are_continents_of_world">These are the Continents of world.</string>
+
+    <string name="below_are_continents_of_world">These are the 7 Continents of world.</string>
+
+    <string name="sonarandesert">The Sonoran Desert is located in the southwestern part of the United States reaching into northwestern Mexico. \n\nIt is the hottest desert in the North American continent with air temperatures consistently rising above 118°F (48°C). The Sonoran Desert is a vast expanse of over 100,000 square miles (259,000 square km) of area. \n\nIt also happens to host an extremely diverse lineup of wildlife. There are over 65 mammals, 340 birds, 100 reptiles, and 2,500 species of plants across the region. \n\nThe Sonoran Desert is the only place in the world you can find a naturally occurring Saguaro Cacti, which can live for over 200 years!  </string>
+
+    <string name="gibsondesert">The Gibson Desert can be found in the central part of Western Australia. It happens to be one of the smaller deserts in Australia, coming it as the 5th largest. \n\nIt is highly regarded for its “untouched” state as a result of it being largely uninhabited even to this day. Most of the human population living in the Gibson Desert is part of the aboriginal tribes of Australia. \n\nThe Gibson Desert currently is home to five different types of animals that are on the endangered species list. </string>
+
     <string name="asia_image">Asia Image</string>
-    <string name="asia">While Africa is first alphabetically, it is second in both population and size among the Earth’s seven continents. Over 1 billion people can call Africa home.
-        The people of Africa are spread across 54 different countries in Africa. This continent is home to 15% of the world’s population and the continent makes up 20% of the total land area on planet earth.
-        The equator passes through the center of the continent which provides for largely warm and/or tropical climates. The northern and the southern portion of Africa have more temperate conditions.
-        Of the continents of the world, Africa is unique in that it stretches between the northern and southern temperate zones. Africa is also attributed with being the birthplace of mankind.
-        The oldest fossil evidence of Homo sapiens was found in the eastern part of the continent. \n\n Africa’s large size and varying climates make it host to many of the most interesting species of plants and animals on Earth.
-        There are currently more than 7,000 different species of mammals, fish, and birds in Africa. There are more than 100,000 species of insects as well. Here you can find both the largest ( African Elephant) and tallest (Giraffe) animal.
-       \n\nThere are several bodies of water surrounding the continent of Africa. You can find the Indian Ocean to the southeast, the Atlantic Ocean to the west, the Mediterranean Sea to the north and the Red Sea to the northeast.
-        \n\nThe continent of Europe and Africa are very close together. They are only 8.9 miles(14.3 km) apart on the northwest corner of Africa. At 4,352 miles long, the Nile River is the longest river in the world and runs along the northeast side of the continent.</string>
+
+    <string name="asia"><b>Asia  Quick Facts</b>
+        \n\nLand Area:
+\n17,210,000 (mi²) / 44,029,797 (km²)
+\n\nPopulation:
+\n4,494,302,221 (2016)
+\n\nLargest City:
+\nTokyo, Japan – 37,800,000 (2016)
+\n\nNumber of Countries:
+\n48
+        \n\nHighest Point / Lowest Point:
+\nMount Everest / Dead Sea Shore
+        \n\nNotable Geographical Features:
+\n•	Gobi Desert
+\n•	Son Doong Cave
+\n•	Himalayas
+        \n\nAsia is the largest of the 7 continents. There are 48 countries in Asia. Most people of Asia are Chinese, Japanese, Indian, or Arab. The main religions include Buddhism, Hinduism, Taoism, Jainism, Christianity, and Shintoism. The largest cities of Asia are Tokyo, Seoul, Jakarta, Dehli, Mumbai, Manila, and Shanghai. Asia is surrounded on three sides by oceans. \n\nThe Pacific, Artic, and Indian oceans all surround Asia. The land of Asia is divided into six regions. These six regions are North Asia, Central Asia, Southwest Asia, South Asia, Southeast Asia, and East Asia. Each region has something unique to offer.
+\n\nNorth Asia is also known as Siberia. It’s extremely cold year round with below freezing temperatures. Snow and ice cover Siberia for most of the year. Siberia is the largest land area of Asia. It is bigger than the country of Canada! This northern region has the most land but the fewest people. Northern Asia is home to the famous Siberian Tiger and Husky dogs. \n\nDespite the extreme cold, the area is a leading world producer of oil, diamonds, gold, and timber.
+\n\nEast Asia is the region with the most people. China is the largest country in East Asia. China has the most people of any country in the world. To control the population, most families are only allowed to have one child. There are many different languages spoken in China. The main languages spoken are Mandarin, Yue, Wu, Minbei, Minnan, Xiang, Gan, and Hakka. \n\nThe fourth longest river in the world runs through China. It is the Yangtze River. The Giant Panda lives near the Yangtze River. China is most known for The Great Wall of China. It’s the largest man-made structure. It is 5,500 miles long.
+\n\nCentral Asia is where the countries of the former Soviet Republic were located. Central Asia is made up of deserts, mountains, and plateaus. Many people of Central Asia earn their living by raising animals such as sheep or goats.
+\n\nSouthwest Asia is also called The Middle East. The Middle East is known as the “Crossroads of the World” because it is where the three continents of Asia, Africa, and Europe come together. Most of Southwest Asia is desert. One of the most fascinating places to visit is the Dead Sea. It’s located at the lowest point on earth. The Dead Sea is 417 meters below sea level. \n\nIt’s the world’s saltiest body of water. It’s so salty that most living things cannot survive in it. Only bacteria and fungi can survive the salty waters of the Dead Sea. People actually stay afloat in the Dead Sea! Even the rocks along the seashore are salt-covered. Shepherds walking along the shoreline made history when they discovered ancient biblical writings rolled inside of glass bottles. These became known as the Dead Sea Scrolls.
+\n\nSouth Asia is made up of many mountain chains including The Himalaya Mountains. The tallest mountain in this area is Mount Everest. It’s part of the Himalaya Mountains chain. Thousands of people have climbed Mount Everest. This is a dangerous climb at 29,029 feet! The first person to climb to the top of Mount Everest was Edmund Hillary from New Zealand. \n\nThe largest country in South Asia is India. Over one billion people live in India. This is almost one-fourth of the world’s population! Many different languages are spoken in India. The most common languages heard are Hindi, Bengali, Telugu, Marathi, Tamil, and Urdu. Many tourists from all over the world come to India to tour the famous Taj Mahal mausoleum.
+\n\nSoutheast Asia has thousands of islands surrounding a strip of mainland. Japan and Indonesia are located here and are made up of many smaller islands. These countries along with China lead the world in manufacturing goods. Southeast Asia has large rice farms. This region gets a lot of rain which is needed for growing rice.
+    </string>
+
     <string name="africa_image">Africa_Image</string>
-    <string name="africa">The continent of Antarctica is positioned as the southernmost land mass on Earth.
-        The South Pole can be found here among its large permanent glaciers and frigid weather.
-        Even though Antarctica has one of the harshest climates and most unwelcoming terrains on planet Earth, there are still nearly five thousand people that temporarily call this continent home every year.
-        This makes Antarctica the least populated continent on Earth. Antarctica is known as the coldest landmass and has few native plants or animals because most of the continent is covered in sheets of ice that can be more than a mile thick which forms permanent glaciers.
-        You can find penguins, seals, plants, and fungi in Antarctica. Interestingly, this continent is the only one which has no reptiles on its land mass.  \n\nAntarctica is the 5th in terms of size compared to the other 7 continents.
-        Both Australia and Europe could fit in the same area that Antarctica covers. The continent is known for being extremely dry which qualifies it as the largest desert region in the world. Antarctica has one of the windiest and coldest climates of the world’s continents.
-        Temperatures can reach −90°C (−130 °F) in some regions of the continent.</string>
+
+    <string name="africa"><b>Africa  Quick Facts</b>
+        \n\nLand Area:
+\n1,670,000 (mi²) / 28,489,869 (km²)
+\n\nPopulation:
+\n1,119,307,147 (2016)
+\n\nLargest City:
+\nLagos, Nigeria – 21,000,000 (2014)
+\n\nNumber of Countries:
+\n54/55 (Disputed)
+        \n\nHighest Point / Lowest Point:
+\nMount Kilimanjaro / Lake Assal
+\n\nNotable Geographical Features:
+\n•	Sahara Desert
+\n•	Ngorongoro Crater
+\n•	Nile River
+\n\nAfrica, known for safaris, wild animals, and the extreme poverty, is the second largest continent of the 7 continents in the world. It is rich in history, language, culture, and geographic diversity. Africa plays host to some of the most incredible deserts, mountains, animals, reptiles, birds, insects on planet earth.
+\n\n<b>GENERAL INFORMATION ABOUT AFRICA</b>
+        \n\nAfrica is comprised of 55 separate countries and nine territories, and two de facto states that are basically their own entities with no special rights or recognition. Africa is made up of approximately 11.7 square miles and has about 22% of the world’s land mass. \n\nAfrica has the world’s youngest population, with half of their over billion people being under 19 years of age. Learn more about the countries of Africa.
+        \n\n<b>GEOGRAPHY OF AFRICA</b>
+        \n\nAfrica is comprised of desert, tropical, savanna grasslands, jungle and even subarctic climates. The top half of the continent is comprised of desert, and the Sahara Desert, the world’s hottest desert, is located in Northern Africa, and at 3.5 million square miles is approximately the size of the United States or China. \n\nThe Nile River, which runs through 11 different countries in Africa, is the longest in the world, over 4,000 miles long. \n\nThe world’s second largest lake and largest tropical lake is Lake Victoria, located in Uganda, Tanzania and Kenya. Africa is located in between the Atlantic Ocean and Indian Ocean, and to the north is the Mediterranean Sea. Africa is the only continent large enough to be in both the northern temperate and southern temperate zones. The equator also runs through several countries in Africa.
+At 19,340 feet, the highest point in Africa is Mt. Kilimanjaro, located in Tanzania and is a popular mountain climbing destination. The lowest point on the African continent is Lake ‘Asal, located in Djibouti, at 502 feet below sea level.
+\n\n<b>ANIMALS OF AFRICA</b>
+        \n\nAfrica is known for its many magnificent animal species, and many people come to Africa for the very purpose of catching a glimpse of these amazing animals in their native habitat. Among the most popular animals native to Africa are the African Elephant, Giraffe, Zebra, Vervet Monkey, Hippopotamus, Cheetah, Hyena, Lion, Gazelle, and Rhinoceros. \n\nMany African animals have earned distinctions, among these, the African Elephant is the world’s largest land animal, the cheetah is the world’s fastest land animal and the giraffe is the tallest animal on land. \n\nThere are several species of fish native to Africa, and Lake Malawi has more species of fish recorded than any other lake in the world.
+        \n\n<b>ECONOMY OF AFRICA</b>
+        \n\nEach country in Africa is independent and may not fall into the African economical stereotype, but as a whole Africa is a very poor continent. HIV/AIDS and malaria are two of the most deadly diseases, and they have ravaged many African countries, leaving orphans and extreme poverty in their wake. \n\nIn addition, many governments are corrupt, and foreign aid money sent to various projects may not end up where it was designated.
+A recent United Nations report that identifies the poorest countries worldwide has stated that the poorest 25 nations in the world are all in Africa. In addition to the diseases above, the poverty can be due to lack of clean water sources, the political instability and wars that are common on the continent, and the difficulty of traveling to the nation’s capitols where most jobs are available
+\n\n<b>THE PEOPLE OF AFRICA</b>
+        \n\nThere is great diversity in Africa, and there are many different native people groups. Many of these people groups have their own languages, and there are well over a thousand languages recognized on the African continent. Because of this, the African continent has the highest level of multilingualism in the world.
+The people of Africa tend to be religious. Africa is a continent rich in diversity when it comes to religious beliefs. A majority of the inhabitants of Africa follow Christianity, Islam, Hinduism, Judaism or other more traditional African religions. Only a small number of Africans do not consider themselves to be religious.
+    </string>
+
     <string name="europe_image">Europe_image</string>
-    <string name="antarctica">The continent of Antarctica is positioned as the southernmost land mass on Earth. The South Pole can be found here among its large permanent glaciers and frigid weather. Even though Antarctica has one of the harshest climates and most unwelcoming terrains on planet Earth, there are still nearly five thousand people that temporarily call this continent home every year. This makes Antarctica the least populated continent on Earth. Antarctica is known as the coldest landmass and has few native plants or animals because most of the continent is covered in sheets of ice that can be more than a mile thick which forms permanent glaciers. You can find penguins, seals, plants, and fungi in Antarctica. Interestingly, this continent is the only one which has no reptiles on its land mass.  Antarctica is the 5th in terms of size compared to the other 7 continents. Both Australia and Europe could fit in the same area that Antarctica covers. The continent is known for being extremely dry which qualifies it as the largest desert region in the world. Antarctica has one of the windiest and coldest climates of the world’s continents. Temperatures can reach −90°C (−130 °F) in some regions of the continent.</string>
-    <string name="europe">The continent of Antarctica is positioned as the southernmost land mass on Earth. The South Pole can be found here among its large permanent glaciers and frigid weather. Even though Antarctica has one of the harshest climates and most unwelcoming terrains on planet Earth, there are still nearly five thousand people that temporarily call this continent home every year. This makes Antarctica the least populated continent on Earth. Antarctica is known as the coldest landmass and has few native plants or animals because most of the continent is covered in sheets of ice that can be more than a mile thick which forms permanent glaciers. You can find penguins, seals, plants, and fungi in Antarctica. Interestingly, this continent is the only one which has no reptiles on its land mass.  Antarctica is the 5th in terms of size compared to the other 7 continents. Both Australia and Europe could fit in the same area that Antarctica covers. The continent is known for being extremely dry which qualifies it as the largest desert region in the world. Antarctica has one of the windiest and coldest climates of the world’s continents. Temperatures can reach −90°C (−130 °F) in some regions of the continent.</string>
+
+    <string name="antarctica"><b>Antarctica  Quick Facts</b>
+        \n\nLand Area:
+\n5,405,000 (mi²) / 12,949,940 (km²)
+\n\nPopulation:
+\n4,912 (2016) – None Permanent
+\n\nLargest City:
+\nMcMurdo Station– 1,248 (2016)
+\n\nNumber of Countries:
+\nNone
+\n\nHighest Point / Lowest Point:
+\nMount Vinson / Bentley Subglacial Trench
+\n\nNotable Geographical Features:
+\n•	South Pole
+\n•	Ross Ice Shelf
+\n\nThe continent known as Antarctica is also known as the South Pole, due to the fact that the geographical southernmost part of the planet is located within its borders. \n\nIn many ways Antarctica is the most unique of the 7 continents, with special features not shared by any of the others.
+\n\n<b>SIZE</b>
+\n\nAntarctica is geographically unique in that it has no permanent borders or constant size. Although it is the fifth largest continent overall, its exact size in square miles varies according to the season. The change can be quite dramatic. \n\nIn the summer, the continent is roughly half of the size of the United States. However, in the winter when the useable area expands due to snow and ice, the continent can more than double in size.
+        \n\n<b>THE WHITE CONTINENT</b>
+        \n\nOne thing Antarctica has in abundance is plenty of snow and ice. 98% of the continent is covered in ice, and about 70% of the world’s total supply of fresh water is frozen in Antarctica. \n\nNo other continent is colder, drier or windier than Antarctica, which goes a long way towards explaining another unique feature, its low population.
+        \n\n<b>NO CITIZENS</b>
+        \n\nSo hostile is the environment of Antarctica that it has no permanent residents. Since no one lives there full time, there are no countries in Antarctica and no governments. That also means there is no form of Antarctic money in either dollars or coins. \n\nYet, some people live and work in Antarctica on a part time basis. These are mostly summer visitors who tend to be almost exclusively scientists conducting various forms of research. \n\nThere are over 60 scientific research stations operating in Antarctica, and the total combined population of the staff of these facilities can sometimes be as high as four or five thousand. A special international treaty allows anyone to use Antarctica for any peaceful purpose.
+        \n\n<b>RESEARCH PROJECTS</b>
+        \n\nThe most common kinds of research done by visitors to Antarctica involve weather. There is much that is unique about the weather of Antarctica, in particular, its extremes of cold. \n\nThe highest temperature ever recorded in Antarctica is a mere 7 degrees Fahrenheit, but the coldest ever recorded is an incredible -128 degrees Fahrenheit. At that temperature, a steel bar forcefully thrown to the ground will shatter. \n\nAntarctica is also considered the world’s best place to gather meteorites that fall to Earth from outer space. Meteorites are easier to find in Antarctica because they stand out against the snow, plus they are not as easily contaminated by earthly plants and bacteria, which often ruin meteorites for scientific study when they fall on other continents. \n\nThe most common professions of visitors to the Antarctic are meteorologists, glaciologists, astronomers, physicists, oceanographers, geologists and biologists.
+        \n\n<b>WILD LIFE</b>
+        \n\nWhile Antarctica has no permanent human residents, it is home to a surprising variety of wild animals. Penguins and other birds such as the albatross can be found in Antarctica, as well as six types of seals and nine varieties of whales. \n\nAlmost all the wildlife in Antarctica can be found near the shore, as the high winds and severe cold makes inland areas of the continent too inhospitable. \n\nThere are over a thousand forms of fungi and lichen type plant life, but only two types of flowering plants on the whole continent. There are also 700 species of plankton.
+If it were not so cold and covered in ice, Antarctica would be a desert much like the Sahara desert in northern Africa because it has little yearly precipitation. \n\nHowever, what little precipitation falls in the form of snow rarely melts, thereby creating deep and ancient snow drifts. Make no mistake about it, Antarctica is technically the largest desert in the world. \n\nWith its extreme cold, it is unlikely that Antarctica will ever be densely populated or of much interest to humans except for scientific study. Yet, The White Continent of Antarctica remains interesting as a beautiful, large and in many ways unique place that is not quite like any other of the 7 continents.
+
+    </string>
+
+    <string name="europe"><b>Europe  Quick Facts</b>
+        \n\nLand Area:
+\n3,931,000 (mi²) / 7,769,964 (km²)
+\n\nPopulation:
+\n738,849,000 (2016)
+\n\nLargest City:
+\nIstanbul, Turkey – 14,657,434 (2016)
+\n\nNumber of Countries:
+\n50
+        \n\nHighest Point / Lowest Point:
+\nMount Elbrus / Caspian Sea Shore
+\n\nNotable Geographical Features:
+\n•	Cliffs of Moher
+\n•	Black Forest
+\n•	Eisriesenwelt
+\n\nIn the history of the world, one of the most historically relevant of the seven continents is Europe. Pointing like a finger off the edge of Asia, this area has seen tremendous upheaval and decline in the history of the world. Europe still has one of the most compact combinations of nationalities and people on the face of the planet. This helps Europe stay rich in history and culture as the countries involved struggle to adapt in the 21st Century.
+\n\n<b>A HISTORICAL REGION</b>
+        \n\nThe history of Europe dates back to the dawn of the world. This continent has had a major influence in many of the Epoch’s of the earth. However, the European influence didn’t really start to spread across the world until the time of Alexander. \n\nThe conquering forces of Alexander helped push the values and culture of Southern Europe throughout the world. This paved a way for a more European view of history, with the rise and fall of Rome led to the dark ages and eventually the Renaissance.
+\n\nIn modern times, Europe has been the center of both World Wars. With such a collection of people and cultures smashed together, it is almost seems inevitable that these worldwide conflicts would flare to life in this multihued area. Since the end of World War II in 1945, the countries of Europe came back from the brink of annihilation. \n\Peace has settled over the continent and very few wars have spilled out beyond the borders of their respective countries. Germany was once a separated country but has become another force in the world since reunifying in 1990. The European Union has helped to bring stability to the area while bringing a currency that is widely used.
+\n\n<b>WHAT’S IN A NAME?</b>
+        \n\nThe name of Europe is as steeped in history as the continent itself. It comes from the Greek myth of Europa and Zeus. Of course, this doesn’t really explain why the area was named Europe. It is known that the designation has been in use since the late Sixth Century BC when the Greek Cartographer Anaximander named the region after the dazzling and mythical beauty. The idea of Europe being attached to the culture started in the Charlemagne Empire in the Ninth Century. \n\nThis was used to separate the European Church from the Eastern Orthodox Church and the lands that were influenced by Islam. Europe, as we know in modern times began in the 19th Century.
+        \n\nThis trend took the already known idea of Europe and applied it to the maps being created for a world that was quickly becoming smaller.
+\n\n<b>GEOLOGICAL SURVEY SAYS!</b>
+        \n\nThe geological makeup of Europe is quite diverse. In the Northern parts of the area are the Scottish highlands. Down towards the south are the areas of the Hungarian plains. In between there are the mountains of Central Europe. There are two parts of Europe: \nThe highlands and mountains of the southern area and the vast flat areas of the Northern area. This divide has helped create the diverse cultures that are often associated with the Continent.
+        \n\n<b>GATED CLIMATE</b>
+        \n\nThe climate of Europe isn’t as varied as the history and geography. With a mountain range popping up in the middle, this helps the continued separation of the north part of Europe from the south. The Gulf Stream helps keep the climate of Europe a bit milder than the rest of the world. \n\nThe Western edge of the Continent is a bit drier than the rest of the area since it is on a lower plane and doesn’t have as much rain. \n\nThe southern area of Europe has more of a Mediterranean flavor. It tends to be balmy and warm, with heat and water coming in from the south. The middle of the continent is greatly influenced by the mountainous region. This helps create a catchall for rain and snow, keeping the middle countries moist all year round.
+    </string>
+
+
     <string name="antarctica_image">Antarctica_image</string>
+
     <string name="south_america_image">South_america_image</string>
-    <string name="south_america">Asia covers nearly 9 percent of the earth’s surface making it the largest of the continents. It is also the home to the most people with an estimated population of 4.3 billion as of 2015 which represents nearly 60% of the world’s population. With this many people, Asia is attributed with being a vital part of the world’s economy. Asia covers nearly 10% of the planet’s surface area and is loosely defined as the eastern portion of the Eurasia continent with the border following a line north from the Aegean Sea to the Black Sea to the NW corner of the Caspian Sea to the Ural River into the Arctic Ocean. The continent is primarily positioned within the northern hemisphere along the eastern portion. On the eastern border, you will find the Pacific Ocean, along the southern border you will find the Indian Ocean, and you can find the Arctic Ocean along the northernmost border.  Asia contains some of the oldest civilizations among the 7 continents including the countries of China and Japan. Asia includes the Saudi Arabia peninsula with the oil-rich countries including the United Arab Emirates and Kuwait. The continent also includes the manufacturing centers of India and Japan and Hong Kong, which is a leading banking and corporate center.</string>
+
+    <string name="south_america"><b>South America  Quick Facts</b>
+        \n\nLand Area:
+\n6,888,000 (mi²) / 15,539,928 (km²)
+\n\nPopulation:
+\n422,500,000 (2016)
+\n\nLargest City:
+\nSão Paulo, Brazil – 21,090,791 (2014)
+\n\nNumber of Countries:
+\n12
+        \n\nHighest Point / Lowest Point:
+\nAconcagua / Laguna del Carbón
+\n\nNotable Geographical Features:
+\n•	Iguazu Falls
+\n•	Galapagos Islands
+\n•	Atacama Desert
+
+        \n\nSouth America is one of the 7 continents on the planet. The majority of its position lies within the Southern Hemisphere, and geographers designate it as a subcontinent of the Americas. The Pacific Ocean borders South America to the west, and the Atlantic Ocean borders it to the east. The Caribbean Sea and the North American continent lie to the northwest.
+\n\nSouth America includes the following countries: Venezuela, Argentina, Uruguay, Bolivia, Suriname, Brazil, Peru, Chile, Paraguay, Colombia, Guyana, and Ecuador. In addition, South America has two non-sovereign territories: French Guiana, a territory of France, and the Falkland Islands, a territory of the United Kingdom.
+\n\nThe geographic area of South America encompasses over 6,890,000 square miles. The population estimates from 2013 exceed 386,000,000 people. As one of the 7 continents, South America ranks fourth in geographic size behind Asia, Africa and North America. It ranks fifth in total population behind Asia, Africa, Europe and North America.
+\n\nThe majority of the population lives in the coastal regions. The interior and southern regions tend to be sparsely populated. The Andes mountain range dominates the Western region of the continent while highlands and extensive river basins, including the Parana, Amazon and Orinoco basins, comprise the Eastern region. \n\nThe majority of the continent lies in the tropical zone. The societies of South American make up a racially, ethnically and culturally diverse group of people originating from Africa, Europe, and Asia. Generally, the societies reflect a background of colonialism, and most South Americans speak Spanish or Portuguese. Many traditions trace their roots to origins in Western civilization.
+\n\nThe South American continent contains many spectacular geographic sights. The highest waterfall in the world, Angel Falls, lies in Venezuela. In addition, South America contains the highest volume river, the Amazon, the longest mountain range, the Andes, and the driest area on the planet, the Atacama Desert. \n\nThe Amazon Rainforest claims the title of the largest rainforest in the world, and Lake Titicaca remains at the highest altitude and is regarded as the most commercially viable lake in the world.
+\n\nSouth America continues to provide the world with extensive mineral resources, including silver, gold, iron ore, copper, petroleum, and tin. These mining and exportation of these minerals have brought significant economic growth through a consistent source of income. \n\nHowever, some countries have concentrated their economies on one or two mineral exports, and this practice hinders the development of broader economies. The price fluctuations in the commodities markets can lend instability to the economies of the continent, and this instability can contribute to political instability as well. This has led to efforts to diversify the economies and strengthen the overall stability of the continent.
+\n\nThe biodiversity of South America contains many unique and fascinating species of animals on the planet, including the anaconda, llama, jaguar, tapir, vicuna, and piranha. The Amazon rain forest provides habitat for a major segment of the Earth’s species.
+\n\nThe largest country in South America is Brazil, which comprises almost half of the entire continent’s land mass and population. The other territories and countries make up three regions: The Southern Cone, The Andean States, and The Guiana region.
+\n\nOne of the earliest cultures of South America was at Norte Chico along the central coast of Peru. This culture existed contemporaneously with the Pharaohs of Ancient Egypt. The Portuguese and Spanish established colonies in South America in the 1500s and beginning in the early 1600s, foreign conquistadors laid claim to many of the natural resources and cultures. \n\nThe competing conquerors divided the continent and claimed the land for their sponsoring countries.
+\n\nAn offshoot of the Napoleonic Wars, the European Peninsular War from 1807 to 1814 altered the political outlook of the Portuguese and Spanish colonies. When Napoleon forces invaded Portugal, the rulers of the House of Braganza escaped to Brazil to avoid capture. After Napoleon captured King Ferdinand VII of Spain, he appointed his brother as ruler instead. \n\nThis political move created an extreme popular resistance in South America, which led to Juntas ruling the continent in the name of King Ferdinand VII of Spain.
+    </string>
+
     <string name="australia_image">Australia_image</string>
-    <string name="australia">The continent of Australia includes the mainland of the country Australia and the island regions of New Guinea, Tasmania, and Seram. During ice ages, when much of the world’s water was frozen in glaciers, the Australian mainland was connected by land bridges to these islands. Australia is the smallest of the 7 continents but is home to the sixth largest country which is known by the same name, Australia. The continent gets its name from the latin word ‘australis’ which translates to mean southern. As a result of the continent’s geography and size, it is often referred to as an “island” continent. Australia is surrounded by two oceans. The Indian ocean is found on the western side and the pacific ocean is found on the eastern side.  Australia is the most isolated and remote continent of the 7 continents and has been least influenced by migrations of people, plants, and animals. This had led to Australia having a wide variety of animals and plants which are unique in the world such as the kangaroo, koala, dingo, wallaby, and wombat. Of the 5,700 hundred species of animals on the continent of Australia, more than 80% are unique and cannot be found anywhere else in the world. The continent is also home to the world’s largest reef and one of the greatest natural wonders, The Great Barrier Reef.  The continent first was inhabited by man nearly 45,000 years ago. European inhabitants came onto the Australian landmass in the 1700’s. Australia is one of the least populated continents yet the country of Australia is the 12th largest economy in the world.</string>
+
+    <string name="australia"><b>Australia (Oceania)  Quick Facts</b>
+    \n\nLand Area:
+    \n2,970,000 (mi²) / 5,179,976 (km²)
+    \n\nPopulation:
+    \n36,304,997 (2016)
+    \n\nLargest City:
+    \nSydney, Australia – 4,921,000 (2015)
+    \n\nNumber of Countries:
+    \n3
+    \n\nHighest Point / Lowest Point:
+    \nMount Kosciuszko / Lake Eyre
+    \n\nNotable Geographical Features:
+    \n•	Uluru
+    \n•	Great Barrier Reef
+    \n•	Twelve Apostles
+    \n\nOf the seven continents, Australia is the smallest by land mass and the second smallest by population, beaten only by Antarctica which has no permanent residents. While Australia may be small compared to other continents, it is the sixth largest country in the world by land mass. There are approximately twenty three million people living in Australia. The most populated city in Australia is Sydney, followed closely by Melbourne.
+    <b>HISTORY</b>
+    \n\nThe first Australians are thought to have come about forty thousand to sixty thousand years ago from New Guinea and Indonesia, establishing a population of at least 350 thousand before the first European contact. \n\nThe first people to document their contact with Australia were the Dutch, led by Willem Jaszoon. After the Dutch came the Spanish, led by Pedro Fernandez de Quiros. Australia comes from Terra Australis which, in latin, means “land of the south”. The first person believed to coin this name was Captain Matthew Flinders, who wrote “A Voyage to Terra Australis” which was published in 1814. The British arrived almost fifty years later and laid claim to Australia about ninety years after that.
+
+    \n\n<b>GEOGRAPHY</b>
+    \n\nThe majority of Australia’s population is concentrated on the southern and eastern coasts, while the rest of the land remains relatively unpopulated: vegetation covers 91 percent of the country. \n\nBecause the population is so concentrated, Australia is one of the world’s most urbanized countries. Australia has a very diverse climate structure, including equatorial, tropical, desert and grassland climates. \n\nMuch of the plant and animal life native to Australia cannot be found anywhere else. The highest point of Australia is Mount Kosciuszko in the Snowy Mountains in Kosciuszko National Park, New South Wales, which reaches 2,228 meters above sea level. \n\nThe lowest point of Australia is Lake Eyre, one of the world’s largest natural inland drainage systems, which reaches 15 meters below sea level. Australia is bordered by the Pacific Ocean to the east and the Indian Ocean to the west.
+    \n\n<b>DEMOGRAPHICS</b>
+    \n\nAustralia has a capitalist economy which is ranked one of the largest in the world. Australia has the third highest life expectancy in the world, ranking below only Iceland and Switzerland. \n\nAbout 25 percent of Australians were born in another country, the largest influx being from the United Kingdom. English is the dominant language in Australia, followed by Italian and Greek. \n\nEven though English is the most common language of Australia, the country does not have an official national language. The Protestant religion is most popular, followed by the Roman Catholic religion.
+    \n\n<b>LANDMARKS</b>
+    \n\nThe Sydney Opera House is one of Australia’s most easily recognized landmarks. It was opened to the public in 1973 and has become the busiest venue in the world. \n\nThe opera house holds three thousand events every ear. Another landmark characteristic of Australia is the Great Barrier Reef off the coast of Queensland. This reef is the world’s biggest coral reef, made from about three thousand individual reefs, and is home to several endangered species. \n\nKangaroo Island is also home to interesting wildlife. Kangaroo Island is the third largest island in Australia and hosts wildlife tours the native brush and beaches.
+    \n\n<b>FUN FACTS ABOUT AUSTRALIA</b>
+    \n\n•	From 1838 to 1902, it was illegal to swim at public beaches during the day.
+    \n•	There are more sheep living in Australia than people.
+    \n•	Australia is home to the world’s longest fence.
+    \n•	Ugg boots were invented by Australian farmers to stay warm.
+    \n•	No one knows who created Marree Man, a four kilometer desert carving of an Indigenous man.
+    \n•	Australia is home to 1500 species of spiders.
+        \n•	Under the best conditions, one can view about 5780 stars from the Australian outback.</string>
+
     <string name="north_america_image">North_America_image</string>
-    <string name="north_america">The western portion of the Eurasian landmass is known as Europe. It is noted as one of the smallest of the 7 continents after Australia, with 7 percent of the world’s landmass. However, Europe is home to about 11% of Earth’s population and is the second most densely populated continent, with 134 people per square mile, behind Asia’s 203 people per square mile.  Europe is comprised of approximately 50 countries and several other territories. The country of Russia is the largest country and the area that is occupied by Vatican City in Italy is the smallest. However, Russia has portions of its territory in both the continent of Europe and Asia with forty percent falling in the continent of Europe. Europe, by definition, includes the continental mainland ending in the east at the Ural Mountains in Russia. Europe also includes islands such as Iceland, Sicily, and the British Isles. The British Isles consist of the large island that is home to England, Scotland, and Wales, and is called Great Britain; the British Isles also include the small island that contains Northern Ireland and the Republic of Ireland, and several much smaller surrounding islands.  There are several bodies of water that surround the continent of Europe. To the south, you will find the Mediterranean Sea and the Black Sea, to the west is the Atlantic Ocean, and to the north is the Arctic Ocean.  Europe has played host to many historic events over the course of history that have left a lasting effect and shaped the continent we know today. People have been living in Europe for about 100,000 years. Around 2000 B.C., Indo-European settlers came and brought the language that most modern European languages are descended from. The ancient Greek and Roman civilizations flourished there, from which we get much of our learning and culture. In the 5th and 6th centuries, the Germanic tribes swept over most of Europe, and their descendants shaped the modern countries of Scandinavia and west and central Europe. By this time the Roman empire had become Christian, and eventually, all of Europe became Christian, for reasons of both faith and economics. The diversity and size of Europe led to the continent hosting much of World War I and World War II.</string>
+
+    <string name="north_america"><b>North America quick facts</b>
+        \n\nNorth America  Quick Facts
+    \n\nLand Area:
+    \n9,540,000 (mi²) / 23,309,892 (km²)
+    \n\nPopulation:
+    \n579,024,000 (2016)
+    \n\nLargest City:
+    \nMexico City, Mexico – 21,200,000 (2015)
+    \n\nNumber of Countries:
+    \n23
+        \n\nHighest Point / Lowest Point:
+\nDenali / Badwater Basin
+\n\nNotable Geographical Features:
+\n•	Grand Canyon
+\n•	Niagara Falls
+\n•	Old Faithful
+        \n\nOf the seven continents, North America is the third largest by land mass and the fourth largest by population. North America consists of twenty four countries, the largest by land mass being Canada. North America is home to over five hundred million people.
+        The most populated city in North America is Mexico City, Mexico, where there are almost nine million people currently residing.
+        \n\n<b>HISTORY</b>
+        \n\nThe first North Americans are believed to be of Asian descent by crossing from North East Asia. The next settlers were of European descent, starting with the Norse and continuing with the English, Spanish, and French. Although Columbus is credited with discovering “The New World”, America was named after Amerigo Vespucci who first explained that Columbus’ journey was not to India but to an entirely different land mass. North America was then settled by all different groups of people, initially split between the English, French, and Spanish.
+        Spain claimed the southernmost land while France claimed mainland America and England claimed northern territories and the east coast.
+\n\n<b>GEOGRAPHY</b>
+        \n\nNorth America is divided into four main geographic regions: the Great Plains, Canadian Shield, East and the West. The Great Plains is a large area of grassland that stretched west of the Mississippi River and east of the Rocky Mountains in the central Canada and United States. \n\nThe Canadian Shield, or the Laurentian Plateau, is a large plateau region made mostly from igneous (or lava) rock covered in soil. The East is characterized as everything east of the Appalachian Mountains, while the West is generally considered as everything west of the Rocky Mountains. \n\nThe highest point of North America is Mount McKinley, Alaska, which reaches to 6,194 meters above sea level. The lowest point of North America is Death Valley, California, which sinks to 86 meters below sea level. \n\nNorth America is bordered by the Atlantic Ocean in the east, the Pacific Ocean in the west, the Arctic Ocean to the north, and both the Panama Canal and South America to the South. North America’s longest river is the Mississippi River, which runs from Northern Minnesota to the Gulf of Mexico.
+        The largest freshwater lake in the world, Lake Superior, can be found in both Ontario and Minnesota.
+\n\n<b>DEMOGRAPHICS</b>
+        \n\nThe most economically wealthy countries are Canada and the United States, with Mexico close behind. Many of the traditions come from British descent, carrying over from the initial colonization. Canada has the highest life expectancy in North America, ranking fifteenth in the world. \n\nThe dominant languages of the North American continent are Spanish, English, and French. Canada is officially bilingual, having both English and French as official languages. The United States of America has no official language.
+\n\n<b>LANDMARKS</b>
+        \n\nThe Panama Canal is a man-made canal created as a faster route between the Atlantic and Pacific Oceans. It is 77 kilometers long and is important to Panama’s international marine trade. Another natural landmark is Niagara Falls. Niagara Falls is a massive waterfall found on the border of Canada and the United States. \n\nIt is home to the oldest state park in the United States and can produce over four million kilowatts of energy per second. For a man-made landmark, the pyramid of Teotihuacan can be found just northeast of Mexico City. \n\nIts name means “place where gods were born”, because the Aztecs believed the universe was created there.
+\n\n<b>FUN FACTS</b>
+        \n\n•	North America has the highest dog population in the world.
+\n•	The only royal palace in use by a monarchy is in Honolulu, Hawaii.
+\n•	Bristlecone Pines, the oldest kinds of trees, can be found in North America.
+\n•	The jaguar is the biggest North American wildcat.
+\n•	Poinsettias were originally called cuetlaxochitl by the Aztecs and originated in Mexico.
+
+    </string>
+
+
     <string name="click_to_view_contries_of_north_america">Click to view countries of North America</string>
+
     <string name="click_to_view_contries_of_south_america">Click to view countries of South America</string>
+
+
     <string name="click_to_view_contries_of_asia">Click to view countries of Asia</string>
+
     <string name="click_to_view_contries_of_europe">Click to view countries of Europe</string>
+
     <string name="click_to_view_contries_of_africa">Click to view countries of Africa</string>
+
     <string name="click_to_view_contries_of_australia">Click to view countries of Australia</string>
+
     <string name="click_to_view_contries_of_antarctica">Click to view countries of Antarctica</string>
+
     <string name="click_on_image_the_to_zoom"><u /> Click on image the to zoom</string>
-    <string name="indian_ocean">Indian_ocean</string>
-    <string name="indian_ocean_txt">The Indian Ocean covers a 28,400,130 sq mile (73,556,000 km²) area between the eastern coast of Africa, the shores of the Middle East and India to its north, and is separated from the Atlantic Ocean by Southeast Asia and Australia/Oceania. Home to a great variety of humankind throughout history, the Indian Ocean is also rich in exotic plant and animal species, and still supplies the world with spices such as black pepper, nutmeg, and ginger. While these spices are now used primarily to flavor the world’s cuisines, they were used from earliest times to preserve foods, and were thought to have great medicinal properties. Indeed, during the terrible plagues of the 13th through 17th Centuries, Europeans were so convinced of their curative powers that their countries fought repeated wars and gambled untold fortunes to gain control of the Spice Islands, and the number of explorers and sailors willing to risk their lives charting new maps to reach them is difficult to imagine.</string>
-    <string name="southern_ocean">Southern_ocean</string>
-    <string name="southern_ocean_txt">Until the mid-20th Century, the waters surrounding Antarctica were generally considered to be extensions of the adjoining oceans. But in 2000, members of the International Hydrographic Organization almost unanimously agreed to identify these southernmost waters as the Southern Ocean. Although its definite boundaries are yet to be determined, below 60°S latitude is generally accepted, giving it an area of 7,848,299 sq miles (20,327,000 km²), and making it the fourth largest of the Earth’s oceans. Joining waters of the southern Pacific, Atlantic and Indian Oceans with a persistent easterly current, the frigid Southern Ocean has a great influence on the Earth’s weather patterns.</string>
-    <string name="pacific_ocean">Pacific_ocean</string>
-    <string name="pacific_ocean_txt">The Pacific is the largest of these oceans, covering 63,784,077 sq miles (165,200,000 km²). It fills the area between the western coastline of the Americas, the eastern coastlines of Asia and Australia, and is capped to the North and South by the Arctic and Antarctic regions. In part because of the numerous tropical islands of East Asia, the Pacific boasts the longest total shoreline, some 84,300 miles (135,663 km). It also holds the deepest point on the earth’s sea floor, the Challenger Deep in the Marianas Trench, near the island of Guam. At close to 11,000 meters below sea level, or almost 7 miles, this crevice was first sounded in 1875 by the HMS Challenger. It would be thought that life forms could not exist at that depth and extreme water pressure. But beginning with radiolarians dredged by the Challenger, hundreds of different species have been found in the Challenger Deep, including shrimp, flatworms, and single-celled protists thought to be very similar to Earth’s earliest life forms. The Pacific was named by Portuguese explorer Ferdinand Magellan, who set sail from Spain in 1519 to find a westerly route to the Spice Islands around the southernmost tip of South America. Rounding the Horn for the first time in November 1520, Magellan passed through the Straits now named for him into a vast sea so calm he described it as a “beautiful, peaceful [pacific] ocean.”</string>
-    <string name="arctic_ocean">Arctic_ocean</string>
-    <string name="arctic_ocean_txt">At 5,400,025 sq miles (13,986,000 km²), the Arctic is the smallest and shallowest of the five Oceans, and falls mostly within the Arctic Circle. It is surrounded by the Eurasian and North American continents, and includes Hudson Bay and the North and Barents Seas. For most of the year, these seas are a mass of ice often hundreds of feet thick; even during the brief summer months ice can make the Arctic Ocean impassable, and it wasn’t known until modern times that there is little solid ground in the most northern reaches of the Earth. Nonetheless, its icy landscape has been inhabited since ancient times by the hardy ancestors of the Inuit of North America, the Sami of Scandinavia, and the Nenets of Russia. The great explorers of the 16th-19th Centuries were determined to find passage from the North Atlantic through to the rich shores of Asia in search of spices, silks and opium. The majority of these explorations ended in failure and disaster; but in the 19th and 20th Centuries accurate passage was finally charted through the mostly frozen waters of the Arctic.</string>
-    <string name="atlantic_ocean">Atlantic_ocean</string>
-    <string name="atlantis_ocean_txt">The next largest ocean is the Atlantic, with an area of 41,081,270 sq miles (106,400,000 km²). It is bounded by the Americas to its west, and by the western shores of Europe and Africa to its east. It includes the Mediterranean, Caribbean and Baltic Seas, and the Gulf of Mexico. Like the Pacific Ocean, it reaches to the Arctic and Antarctica. In European History, the Indian and eastern Atlantic Oceans were the most completely charted of the world’s seas until the 15th Century; indeed this area was considered the sum total of the known world. With the escalation of the Spice Trade, desire for a Western route to the East Indies led to the eventual navigation of the globe as we now know it. The warm, stormy waters of the North Atlantic once supported great populations of cod and sperm whale. Cod has been an important human food source for hundreds of years, notably during the founding of America’s colonies, when North American settlements relied heavily upon cod’s easily preserved high-quality flesh. The sperm whale, at over 20 meters in length, is the largest living toothed animal. It has huge stores of bodily oil, used to light the lamps of Europe and North America, made this whale greatly sought-after in the late 18th and early 19th Centuries, nearly leading to its extinction. While high-quality whale oil continued to be used in many industries well into the 20th Century, the development of kerosene meant the end to large-scale sperm whale hunting.</string>
+
+
+    <string name="southern_ocean_txt">Until the mid-20th Century, the waters surrounding Antarctica were generally considered to be extensions of the adjoining oceans. But in 2000, members of the International Hydrographic Organization almost unanimously agreed to identify these southernmost waters as the Southern Ocean. \n\nAlthough its definite boundaries are yet to be determined, below 60°S latitude is generally accepted, giving it an area of 7,848,299 sq miles (20,327,000 km²), and making it the fourth largest of the Earth’s oceans. \n\nJoining waters of the southern Pacific, Atlantic and Indian Oceans with a persistent easterly current, the frigid Southern Ocean has a great influence on the Earth’s weather patterns.</string>
+
     <string name="images">images</string>
+
     <string name="continets">Continents</string>
+
     <string name="oceans">Oceans</string>
+
     <string name="deserts">Deserts</string>
-    <string name="title_activity_main2">Main2Activity</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
+
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+
     <string name="nav_header_desc">Navigation header</string>
-    <string name="title_activity_main">MainActivity</string>
+
     <string name="menu_home">Home</string>
+
     <string name="contact_us">Contact Us</string>
+
     <string name="about_us">About Us</string>
+
     <string name="rate_us">Rate Us</string>
+
     <string name="communicate">Communicate</string>
+
     <string name="share">Share</string>
-    <string name="send">Send</string>
+
     <string name="exit">Exit</string>
-    <string name="countory">India</string>
+
+    <string name="chihuahuan_desert">Chihuahuan desert</string>
+    <string name="imagedesert">imagedesert</string>
+    <string name="great_sandy_desert">Great Sandy desert</string>
+    <string name="great_victoria_desert">Great Victoria desert</string>
+    <string name="great_basin_desert">Great Basin desert</string>
+    <string name="australian_desert">Australian desert</string>
+    <string name="gibson_desert">Gibson desert</string>
+    <string name="taklamakan_desert">Taklamakan desert</string>
+    <string name="kzyl_kum_desert">Kzyl Kum desert</string>
+    <string name="tanami_desert">Tanami desert</string>
+    <string name="sonaran_desert">Sonaran desert</string>
+    <string name="simpson_desert">Simpson desert</string>
+    <string name="patagonian_desert">Patagonian desert</string>
+    <string name="mojave_desert">Mojave desert</string>
+    <string name="karakum_desert">Karakum desert</string>
+    <string name="colorado_desert">Colorado desert</string>
+    <string name="antarctica_desert">Antarctica desert</string>
+    <string name="thar_desert">Thar desert</string>
+    <string name="arabian_desert">Arabian Desert</string>
+    <string name="gobi_desert">Gobi Desert</string>
+    <string name="sahara_desert">Sahara Desert</string>
+    <string name="namib_desert">Namib Desert</string>
+    <string name="kalahari_desert">Kalahari Desert</string>
+    <string name="contact_us2">Contact Us</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="get_in_touch_with_us_for_any_questions_and_feedback">Get in touch with us for any questions and feedback.</string>
+    <string name="facebook">Facebook:</string>
+    <string name="linkedin">Linkedin:</string>
+    <string name="emailid">dzoneassociation@gmail.com</string>
+    <string name="fbid">https://wwww.facebook.com/thedzoned/</string>
+    <string name="linkid">https://wwww.linkedin.com/company/the-d-zone/</string>
+    <string name="our_mission">OUR MISSION</string>
+    <string name="mission">We The D-Zone team believes in providing opportunities to the potential students and creating a healthy, social and patriotic atmosphere. We aim at the simplicity in an highly organized way to provide our users with the quality material on different topics of real concern.</string>
 
 
 </resources>

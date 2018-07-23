@@ -4,15 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/card"
-    app:cardCornerRadius="12dp"
+    app:cardCornerRadius="8dp"
     android:layout_margin="7dp"
     >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#A3E4D7">
+        >
         <ImageView
             android:layout_width="75dp"
             android:contentDescription="@string/recimage"
@@ -26,16 +25,20 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
             android:layout_toEndOf="@+id/img"
             android:layout_toRightOf="@+id/img"
             android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/mname"
+            android:textColor="#000000"
             android:layout_marginBottom="10dp"
             android:layout_below="@id/img"
-            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:textSize="18sp"
             />
 
