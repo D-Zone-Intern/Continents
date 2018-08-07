@@ -1,9 +1,17 @@
 package com.example.gaps.continentsandoceans;
 
-public class model {
-    private String name;
-    private String desc;
-    private String image;
+import android.support.annotation.Keep;
+
+import com.google.firebase.database.IgnoreExtraProperties;
+
+import java.io.Serializable;
+
+@IgnoreExtraProperties
+@Keep
+public class model implements Serializable {
+    public String name;
+    public String desc;
+    public String image;
 
     public model() {
         super();

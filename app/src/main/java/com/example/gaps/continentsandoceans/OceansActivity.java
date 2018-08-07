@@ -89,8 +89,8 @@ public class OceansActivity extends AppCompatActivity implements View.OnClickLis
     public void onBackPressed() {
 
         super.onBackPressed();
-
         finish();
+
     }
 
 

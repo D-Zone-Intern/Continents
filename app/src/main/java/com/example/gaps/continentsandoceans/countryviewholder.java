@@ -8,10 +8,12 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-public final class countryviewholder extends RecyclerView.ViewHolder {
-    private final ImageView imageView;
-    private final TextView name;
-    private final TextView desc;
+import java.io.Serializable;
+
+public final class countryviewholder extends RecyclerView.ViewHolder implements Serializable {
+    public final ImageView imageView;
+    public final TextView name;
+    public final TextView desc;
 
 
 

@@ -23,8 +23,20 @@
           }
         },
         {
-          "client_id": "70587813237-q9pu15ilq6l8ovk965lgijbs0tvuet21.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "70587813237-d0ec4qmtcv7nq40raf3thgl81e6numuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaps.continentsandoceans",
+            "certificate_hash": "28b9d56ea4ce1a098a7434de85961c8221c32c1d"
+          }
+        },
+        {
+          "client_id": "70587813237-o0rlel7521ff2ud3as98vijtbt9r4tc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaps.continentsandoceans",
+            "certificate_hash": "e95d307aa0c1d2ce0a1536fb4ab5c771155184a7"
+          }
         },
         {
           "client_id": "70587813237-q9pu15ilq6l8ovk965lgijbs0tvuet21.apps.googleusercontent.com",

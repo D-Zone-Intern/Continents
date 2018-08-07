@@ -9,13 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Adapter extends PagerAdapter{
+public class Adapter extends PagerAdapter implements Serializable {
 
 
-        private ArrayList<Integer> images;
-        private LayoutInflater inflater;
+        public ArrayList<Integer> images;
+        public LayoutInflater inflater;
 
     Adapter(Context context, ArrayList<Integer> images) {
         this.images=images;

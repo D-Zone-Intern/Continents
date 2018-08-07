@@ -29,7 +29,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import java.io.Serializable;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -39,10 +39,12 @@ import java.util.Locale;
 import me.relex.circleindicator.CircleIndicator;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener
+{
 
     private static final Integer[] pics = {R.drawable.s1, R.drawable.s2, R.drawable.s3};
     private TextView txtloc;
+    private TextView textind;
 
     private ArrayList<Integer> picsArray = new ArrayList<>();
 
@@ -72,7 +74,7 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+
             finish();
         }
     }
@@ -120,6 +122,7 @@ public class MainActivity extends AppCompatActivity
     private void init() {
         Collections.addAll(picsArray, pics);
         txtloc = findViewById(R.id.textView2);
+        textind = findViewById(R.id.textindia);
 
 
         ViewPager mPager = findViewById(R.id.pager);
@@ -131,6 +134,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),OceansActivity.class);
                 startActivity(i);
+
             }
         });
 
@@ -139,6 +143,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),Continents.class);
                 startActivity(i);
+
             }
         });
         cardDesert.setOnClickListener(new View.OnClickListener() {
@@ -146,6 +151,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),deserts.class);
                 startActivity(i);
+
 
             }
         });
@@ -198,7 +204,8 @@ public class MainActivity extends AppCompatActivity
                     assert locationManager != null;
                     Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
                     String city = getlocation(location.getLatitude(),location.getLongitude());
-                    txtloc.setText(city+", India");
+                    txtloc.setText(city);
+                    textind.setText(R.string.conty);
 
 
                 }else {
@@ -225,7 +232,8 @@ public class MainActivity extends AppCompatActivity
             try
             {
                 String city = getlocation(location.getLatitude(),location.getLongitude());
-                txtloc.setText(city+", India");
+                txtloc.setText(city);
+                textind.setText(R.string.conty);
 
             }catch (Exception e){
                 Toast.makeText(getApplicationContext(),"not found",Toast.LENGTH_LONG).show();

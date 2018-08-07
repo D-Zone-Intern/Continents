@@ -13,6 +13,7 @@
         android:orientation="vertical"
         >
         <ImageView
+
             android:layout_width="75dp"
             android:contentDescription="@string/recimage"
             android:layout_height="75dp"

@@ -136,7 +136,7 @@ public class continentsview extends AppCompatActivity {
     }
 
 
-    private void init() {
+    public void init() {
 
         imageViewcont = findViewById(R.id.imagecont);
         txtcont = findViewById(R.id.textcont);

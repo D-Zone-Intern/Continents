@@ -19,7 +19,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
-public class next_Activity extends AppCompatActivity {
+import java.io.Serializable;
+
+public class next_Activity extends AppCompatActivity  {
     RecyclerView recyclerView;
     DatabaseReference databaseReference;
     FirebaseRecyclerAdapter<model, countryviewholder> adapter;
@@ -33,7 +35,7 @@ public class next_Activity extends AppCompatActivity {
 
     }
 
-    private void init() {
+    public void init() {
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

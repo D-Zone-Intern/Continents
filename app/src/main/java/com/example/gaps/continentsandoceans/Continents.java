@@ -23,7 +23,7 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
         init();
     }
 
-    private void init() {
+    public void init() {
         photoView = findViewById(R.id.svgone);
         photoView.setImageResource(R.drawable.sevencontinents);
         asia = findViewById(R.id.asia);
@@ -102,8 +102,8 @@ public class Continents extends AppCompatActivity implements View.OnClickListene
     public void onBackPressed() {
 
         super.onBackPressed();
-
         finish();
+
     }
 
 

@@ -32,7 +32,7 @@ public class deserts extends AppCompatActivity implements View.OnClickListener{
         return true;
     }
 
-    private void init() {
+    public void init() {
         photoView = findViewById(R.id.svgthree);
         simsond=findViewById(R.id.desertsimpson);
         simsond.setOnClickListener(this);
