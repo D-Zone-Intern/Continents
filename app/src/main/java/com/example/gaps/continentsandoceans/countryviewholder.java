@@ -9,6 +9,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class countryviewholder extends RecyclerView.ViewHolder {
     private final ImageView imageView;
     private final TextView name;
@@ -32,20 +33,31 @@ public final class countryviewholder extends RecyclerView.ViewHolder {
     private ImageView image;
     private TextView name;
     private TextView cname;
+=======
+import java.io.Serializable;
+
+public final class countryviewholder extends RecyclerView.ViewHolder implements Serializable {
+    public final ImageView imageView;
+    public final TextView name;
+    public final TextView desc;
+
+
+>>>>>>> vikash
 
     countryviewholder(View itemView) {
         super(itemView);
         name = itemView.findViewById(R.id.mname);
-        image = itemView.findViewById(R.id.img);
-        cname = itemView.findViewById(R.id.cname);
+        imageView = itemView.findViewById(R.id.img);
+        desc = itemView.findViewById(R.id.cname);
     }
 
-    public void setCname(String d) {
-        cname.setText(d);
+    public void setDesc(String d) {
+        desc.setText(d);
     }
 
-    public void setImage(String ima, Context context) {
-        Glide.with(context).load(ima).into(image);
+
+    public void setImage(String image, Context context) {
+        Glide.with(context).load(image).into(imageView);
 
 
     }
@@ -57,7 +69,11 @@ public final class countryviewholder extends RecyclerView.ViewHolder {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> vikash
+=======
+
 >>>>>>> vikash
 }

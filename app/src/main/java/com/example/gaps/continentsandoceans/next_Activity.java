@@ -21,16 +21,21 @@ public class next_Activity extends AppCompatActivity {
     private DatabaseReference firebaseDatabase;
 =======
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
-public class next_Activity extends AppCompatActivity {
+import java.io.Serializable;
+
+public class next_Activity extends AppCompatActivity  {
     RecyclerView recyclerView;
     DatabaseReference databaseReference;
     FirebaseRecyclerAdapter<model, countryviewholder> adapter;
@@ -50,11 +55,12 @@ public class next_Activity extends AppCompatActivity {
 
 =======
         setContentView(R.layout.next_activity);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         init();
 
     }
 
-    private void init() {
+    public void init() {
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -69,9 +75,10 @@ public class next_Activity extends AppCompatActivity {
         adapter = new FirebaseRecyclerAdapter<model, countryviewholder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull countryviewholder holder, int position, @NonNull model model) {
-                holder.setImage(model.getImage(), next_Activity.this);
+
+                holder.setDesc(model.getDesc());
+                holder.setImage(model.getImage(),next_Activity.this);
                 holder.setName(model.getName());
-                holder.setCname(model.getCname());
             }
 
             @NonNull
@@ -114,6 +121,28 @@ public class next_Activity extends AppCompatActivity {
         super.onStop();
         adapter.stopListening();
     }
+
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        Intent intent = new Intent(this, continentsview.class);
+        startActivity(intent);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        finish();
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
+
+        finish();
+    }
 }
+
+<<<<<<< HEAD
+>>>>>>> vikash
+=======
 
 >>>>>>> vikash

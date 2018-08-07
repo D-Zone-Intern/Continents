@@ -3,9 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="75dp"
-    android:id="@+id/card"
-    app:cardCornerRadius="12dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
     android:layout_margin="7dp"
 <<<<<<< HEAD
     android:elevation="98dp">
@@ -16,24 +15,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#A3E4D7">
+        >
         <ImageView
+
             android:layout_width="75dp"
+            android:contentDescription="@string/recimage"
             android:layout_height="75dp"
+            android:layout_margin="10dp"
             android:id="@+id/img"/>
+
         <TextView
-            android:layout_width="150dp"
-            android:layout_height="40dp"
             android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@+id/img"
             android:layout_toRightOf="@+id/img"
-            android:layout_marginLeft="80dp"/>
+            android:textStyle="bold" />
+
         <TextView
-            android:layout_width="100dp"
-            android:layout_height="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/mname"
-            android:layout_marginLeft="80dp"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/img"/>
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            />
 
 
     </RelativeLayout>

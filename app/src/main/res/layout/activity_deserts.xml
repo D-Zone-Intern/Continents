@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deserts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:layout_height="250dp"
+            android:src="@drawable/dessertgraphic"
+            android:id="@+id/svgthree"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/click_on_image_the_to_zoom"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="25dp"
+            android:background="?android:attr/listDivider" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:text="@string/desert_definition"/>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertkalahari"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/kalahari" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/kalahari_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertnamib"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/nabim" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/namib_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertsahara"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/sahara" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/sahara_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertgobi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/gobi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/gobi_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertarabian"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/imagedesert"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/arabian" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/arabian_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertthar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/imagedesert"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/thar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/thar_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertantarctica"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/antarctica"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/imagedesert"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/antarctic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/antarctica_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertcolorado"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/colorado" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/colorado_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertkarakum"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/karakum" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/karakum_desert"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertmojave"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/imagedesert"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mojave" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/mojave_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertpataginion"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/patagonion" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/patagonian_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertsimpson"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/imagedesert"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/simpson" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/simpson_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertsonaran"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/thar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/sonaran_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/deserttanami"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/tanami" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/tanami_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertkyzylkum"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/kyzlkum" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/kzyl_kum_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/deserttaklanam"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/taklamakan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/taklamakan_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/desertgibson"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/imagedesert"
+            app:srcCompat="@drawable/gibson" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/gibson_desert"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/desertaustralian"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/imagedesert"
+            app:srcCompat="@drawable/australian" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/australian_desert"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertgrtbasin"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/greatbasin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/great_basin_desert"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertgrtvictoria"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/imagedesert"
+                app:srcCompat="@drawable/greatvictoria" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/great_victoria_desert"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        android:id="@+id/desertgrtsany"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/imagedesert"
+            app:srcCompat="@drawable/greatsandy" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/great_sandy_desert"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/desertchihuhuan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contentDescription="@string/imagedesert"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/chihuvan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/chihuahuan_desert"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

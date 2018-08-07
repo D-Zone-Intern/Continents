@@ -4,7 +4,9 @@ import android.app.Application;
 
 import com.google.firebase.database.FirebaseDatabase;
 
-public class firebasehelper extends Application {
+import java.io.Serializable;
+
+public class firebasehelper extends Application implements Serializable {
     @Override
     public void onCreate() {
         super.onCreate();
